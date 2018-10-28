@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Sun Oct 28 22:06:54 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
+  <build time="Sun Oct 28 22:31:52 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
     <runtime name="PHP" version="7.2.10" url="https://secure.php.net/"/>
     <driver name="xdebug" version="2.6.1"/>
   </build>
@@ -163,7 +163,7 @@
     </tests>
     <directory name="/">
       <totals>
-        <lines total="2024" comments="24" code="2000" executable="977" executed="945" percent="96.72"/>
+        <lines total="2024" comments="24" code="2000" executable="977" executed="946" percent="96.83"/>
         <methods count="179" tested="157" percent="87.71"/>
         <functions count="0" tested="0" percent="0"/>
         <classes count="19" tested="12" percent="63.16"/>
@@ -171,7 +171,7 @@
       </totals>
       <directory name="controller">
         <totals>
-          <lines total="1736" comments="24" code="1712" executable="892" executed="860" percent="96.41"/>
+          <lines total="1736" comments="24" code="1712" executable="892" executed="861" percent="96.52"/>
           <methods count="121" tested="99" percent="81.82"/>
           <functions count="0" tested="0" percent="0"/>
           <classes count="15" tested="8" percent="53.33"/>
@@ -305,7 +305,7 @@
         </file>
         <file name="FuncaoSistema.php" href="controller/FuncaoSistema.php.xml">
           <totals>
-            <lines total="533" comments="18" code="515" executable="335" executed="312" percent="93.13"/>
+            <lines total="533" comments="18" code="515" executable="335" executed="313" percent="93.43"/>
             <methods count="28" tested="14" percent="50.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>

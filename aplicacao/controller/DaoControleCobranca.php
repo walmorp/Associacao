@@ -64,11 +64,11 @@ class DaoControleCobranca extends Conexao implements Cadastro {
   $idAssociado = $this::lerAssociadoTitulo($idTitulo);
   
   $sql = "INSERT INTO ".$this::getTabela()." (ID, ID_TITULO, ID_ASSOCIADO, ID_TIPO_COBRANCA, ID_SITUACAO_BAIXA, 
-		       DATA_REGISTRO_PARCELA, DATA_VENCIMENTO, 
-		       VALOR_NOMINAL, VALOR_ACRESCIMO, VALOR_ABATIMENTOS, VALOR_BAIXADO) 
+                       DATA_REGISTRO_PARCELA, DATA_VENCIMENTO, 
+                              VALOR_NOMINAL, VALOR_ACRESCIMO, VALOR_ABATIMENTOS, VALOR_BAIXADO) 
                 VALUES ('$id', '$idTitulo', '$idAssociado', '$idTipoCobranca', '$idSituacaoBaixa', 
-		       current_timestamp, $dataVencimento, 
-		       $valorNominal, $valorAcrescimo, $valorAbatimento, $valorBaixado)";
+                       current_timestamp, $dataVencimento, 
+                       $valorNominal, $valorAcrescimo, $valorAbatimento, $valorBaixado)";
   $re = $this::query($sql);
   if (!$re) {
      return false;
@@ -121,7 +121,7 @@ class DaoControleCobranca extends Conexao implements Cadastro {
                     ID_SITUACAO_BAIXA = '$idSituacaoBaixa',
                     DATA_VENCIMENTO = $dataVencimento,
                     DATA_BAIXA = $dataBaixa,
-		    DATA_REGISTRO_BAIXA = $dataRegistroBaixa, 
+                    DATA_REGISTRO_BAIXA = $dataRegistroBaixa, 
                     VALOR_NOMINAL = $valorNominal,
                     VALOR_ACRESCIMO = $valorAcrescimo,
                     VALOR_ABATIMENTOS = $valorAbatimento,

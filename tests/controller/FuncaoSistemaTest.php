@@ -175,6 +175,7 @@ class FuncaoSistemaTest extends TesteCase {
        $obj = new Conexao();
        $this->assertCount(1, $this->object->montaDados($obj->query("SELECT 'true' from rdb\$database")));
        $this->assertContains("true", $this->object->montaDados($obj->query("SELECT 'true' from rdb\$database")));
+       $this->assertEquals(false, $this->object->montaDados(false));
     }
 
     /**

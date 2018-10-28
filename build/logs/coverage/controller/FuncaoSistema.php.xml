@@ -2,13 +2,13 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="FuncaoSistema.php" path="/controller">
     <totals>
-      <lines total="533" comments="18" code="515" executable="335" executed="312" percent="93.13"/>
+      <lines total="533" comments="18" code="515" executable="335" executed="313" percent="93.43"/>
       <methods count="28" tested="14" percent="50.00"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="FuncaoSistema" start="3" executable="335" executed="312" crap="121.43">
+    <class name="FuncaoSistema" start="3" executable="335" executed="313" crap="120.88">
       <package full="" name="" sub="" category=""/>
       <namespace name=""/>
       <method name="opcaoSelecione" signature="opcaoSelecione()" start="8" end="10" crap="1" executable="1" executed="1" coverage="100"/>
@@ -24,7 +24,7 @@
       <method name="alterarDados" signature="alterarDados($obj, $id)" start="131" end="134" crap="1" executable="2" executed="2" coverage="100"/>
       <method name="apagarDados" signature="apagarDados($obj, $id)" start="136" end="144" crap="2" executable="5" executed="5" coverage="100"/>
       <method name="consultarDados" signature="consultarDados($obj, $id)" start="146" end="161" crap="3.02" executable="8" executed="7" coverage="87.5"/>
-      <method name="montaDados" signature="montaDados($r)" start="163" end="174" crap="4.25" executable="8" executed="6" coverage="75"/>
+      <method name="montaDados" signature="montaDados($r)" start="163" end="174" crap="4.03" executable="8" executed="7" coverage="87.5"/>
       <method name="mostraCampoID" signature="mostraCampoID($id)" start="176" end="178" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="retornaProximoID" signature="retornaProximoID($obj)" start="180" end="189" crap="2" executable="7" executed="7" coverage="100"/>
       <method name="mostraTabelaBDConectado" signature="mostraTabelaBDConectado($obj, $sql, $Opera, $MostrarMetaDados = false)" start="191" end="331" crap="30.38" executable="107" executed="99" coverage="92.523364485981"/>
@@ -288,6 +288,9 @@
         <covered by="FuncaoSistemaTest::testConsultarDados"/>
       </line>
       <line nr="164">
+        <covered by="FuncaoSistemaTest::testMontaDados"/>
+      </line>
+      <line nr="165">
         <covered by="FuncaoSistemaTest::testMontaDados"/>
       </line>
       <line nr="167">

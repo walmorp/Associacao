@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2018-10-28 22:06:54</timestamp>
+  <timestamp>2018-10-28 22:31:52</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>179</methodCount>
     <crapMethodCount>1</crapMethodCount>
     <crapLoad>3</crapLoad>
-    <totalCrap>352.95</totalCrap>
+    <totalCrap>352.73</totalCrap>
     <crapMethodPercent>0.56</crapMethodPercent>
   </stats>
   <methods>
@@ -1183,9 +1183,9 @@
       <methodName>montaDados</methodName>
       <methodSignature>montaDados($r)</methodSignature>
       <fullMethod>montaDados($r)</fullMethod>
-      <crap>4.25</crap>
+      <crap>4.03</crap>
       <complexity>4</complexity>
-      <coverage>75</coverage>
+      <coverage>87.5</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>

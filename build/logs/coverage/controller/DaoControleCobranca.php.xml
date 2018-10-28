@@ -997,10 +997,10 @@
         <token name="T_ENCAPSED_AND_WHITESPACE"> (ID, ID_TITULO, ID_ASSOCIADO, ID_TIPO_COBRANCA, ID_SITUACAO_BAIXA, </token>
       </line>
       <line no="67">
-        <token name="T_ENCAPSED_AND_WHITESPACE">		       DATA_REGISTRO_PARCELA, DATA_VENCIMENTO, </token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">                       DATA_REGISTRO_PARCELA, DATA_VENCIMENTO, </token>
       </line>
       <line no="68">
-        <token name="T_ENCAPSED_AND_WHITESPACE">		       VALOR_NOMINAL, VALOR_ACRESCIMO, VALOR_ABATIMENTOS, VALOR_BAIXADO) </token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">                              VALOR_NOMINAL, VALOR_ACRESCIMO, VALOR_ABATIMENTOS, VALOR_BAIXADO) </token>
       </line>
       <line no="69">
         <token name="T_ENCAPSED_AND_WHITESPACE">                VALUES ('</token>
@@ -1016,12 +1016,12 @@
         <token name="T_ENCAPSED_AND_WHITESPACE">', </token>
       </line>
       <line no="70">
-        <token name="T_ENCAPSED_AND_WHITESPACE">		       current_timestamp, </token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">                       current_timestamp, </token>
         <token name="T_VARIABLE">$dataVencimento</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">, </token>
       </line>
       <line no="71">
-        <token name="T_ENCAPSED_AND_WHITESPACE">		       </token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">                       </token>
         <token name="T_VARIABLE">$valorNominal</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">, </token>
         <token name="T_VARIABLE">$valorAcrescimo</token>
@@ -1559,7 +1559,7 @@
         <token name="T_ENCAPSED_AND_WHITESPACE">,</token>
       </line>
       <line no="124">
-        <token name="T_ENCAPSED_AND_WHITESPACE">		    DATA_REGISTRO_BAIXA = </token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">                    DATA_REGISTRO_BAIXA = </token>
         <token name="T_VARIABLE">$dataRegistroBaixa</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">, </token>
       </line>
