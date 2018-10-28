@@ -46,15 +46,12 @@ class DaoBaixarParcela extends Conexao implements View {
      $dataRegistroBaixa = "current_timestamp";
   }
 
-  $Opera = "Altera";
-  if ($id == 0) {
-     $Opera = "Cadastra";
-  } else {
+  $gravou=true;
+  if ($id != 0) {
      $sql = "SELECT * FROM COBRANCA WHERE ID = $id";
      
      $r = self::query($sql);
      
-     $gravou=true;
      print "<br><br><center><div><h2>";
      if ($row = ibase_fetch_object($r)) {
         $sql = "UPDATE COBRANCA
@@ -77,8 +74,8 @@ class DaoBaixarParcela extends Conexao implements View {
     }
     print "</h2></div></center>";
     print "<br><br><center><div><h2><a href=\"JavaScript:history.go(-2)\" title=\"Retorna para página com a lista.\">&nbsp;Volta&nbsp;</a></h2></div></center>";
-    return $gravou;
   }
+  return $gravou;
  }
 }
 ?> 

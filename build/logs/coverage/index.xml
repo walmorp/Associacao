@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Sun Oct 28 14:58:29 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
+  <build time="Sun Oct 28 17:00:37 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
     <runtime name="PHP" version="7.2.10" url="https://secure.php.net/"/>
     <driver name="xdebug" version="2.6.1"/>
   </build>
@@ -163,7 +163,7 @@
     </tests>
     <directory name="/">
       <totals>
-        <lines total="2023" comments="24" code="1999" executable="977" executed="907" percent="92.84"/>
+        <lines total="2019" comments="24" code="1995" executable="973" executed="908" percent="93.32"/>
         <methods count="179" tested="129" percent="72.07"/>
         <functions count="0" tested="0" percent="0"/>
         <classes count="19" tested="8" percent="42.11"/>
@@ -171,7 +171,7 @@
       </totals>
       <directory name="controller">
         <totals>
-          <lines total="1735" comments="24" code="1711" executable="892" executed="822" percent="92.15"/>
+          <lines total="1731" comments="24" code="1707" executable="888" executed="823" percent="92.68"/>
           <methods count="121" tested="71" percent="58.68"/>
           <functions count="0" tested="0" percent="0"/>
           <classes count="15" tested="4" percent="26.67"/>
@@ -188,7 +188,7 @@
         </file>
         <file name="DaoBaixarParcela.php" href="controller/DaoBaixarParcela.php.xml">
           <totals>
-            <lines total="85" comments="0" code="85" executable="46" executed="39" percent="84.78"/>
+            <lines total="81" comments="0" code="81" executable="42" executed="40" percent="95.24"/>
             <methods count="4" tested="3" percent="75.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>

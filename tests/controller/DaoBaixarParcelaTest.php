@@ -54,6 +54,13 @@ class DaoBaixarParcelaTest extends TesteCase {
      */
     public function testGravar() {
        $this->assertEquals(true, $this->object->gravar());
+       $_GET['id']='5';
+       $_GET['$dataBaixa']='10/10/2018';
+       $_GET['valorNominal']='100';
+       $_GET['valorAcrescimo']='10';
+       $_GET['valorAbatimento']='10';
+       $_GET['valorBaixado']='0';
+       $this->assertEquals(true, $this->object->gravar());
     }
 
     /**

@@ -2,19 +2,19 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="DaoBaixarParcela.php" path="/controller">
     <totals>
-      <lines total="85" comments="0" code="85" executable="46" executed="39" percent="84.78"/>
+      <lines total="81" comments="0" code="81" executable="42" executed="40" percent="95.24"/>
       <methods count="4" tested="3" percent="75.00"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="DaoBaixarParcela" start="6" executable="46" executed="39" crap="8.23">
+    <class name="DaoBaixarParcela" start="6" executable="42" executed="40" crap="8">
       <package full="" name="" sub="" category=""/>
       <namespace name=""/>
       <method name="getClassView" signature="getClassView()" start="9" end="11" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="executaView" signature="executaView()" start="13" end="16" crap="1" executable="2" executed="2" coverage="100"/>
-      <method name="getParcela" signature="getParcela()" start="18" end="30" crap="1" executable="5" executed="5" coverage="100"/>
-      <method name="gravar" signature="gravar()" start="32" end="83" crap="5.16" executable="38" executed="31" coverage="81.578947368421"/>
+      <method name="getParcela" signature="getParcela()" start="18" end="29" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="gravar" signature="gravar()" start="31" end="79" crap="5.00" executable="35" executed="33" coverage="94.285714285714"/>
     </class>
     <coverage>
       <line nr="10">
@@ -38,8 +38,8 @@
       <line nr="28">
         <covered by="DaoBaixarParcelaTest::testGetParcela"/>
       </line>
-      <line nr="29">
-        <covered by="DaoBaixarParcelaTest::testGetParcela"/>
+      <line nr="32">
+        <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
       <line nr="33">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
@@ -56,10 +56,19 @@
       <line nr="37">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="38">
+      <line nr="39">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
       <line nr="40">
+        <covered by="DaoBaixarParcelaTest::testGravar"/>
+      </line>
+      <line nr="41">
+        <covered by="DaoBaixarParcelaTest::testGravar"/>
+      </line>
+      <line nr="42">
+        <covered by="DaoBaixarParcelaTest::testGravar"/>
+      </line>
+      <line nr="44">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
       <line nr="45">
@@ -68,7 +77,7 @@
       <line nr="46">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="47">
+      <line nr="49">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
       <line nr="50">
@@ -77,7 +86,10 @@
       <line nr="51">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="54">
+      <line nr="53">
+        <covered by="DaoBaixarParcelaTest::testGravar"/>
+      </line>
+      <line nr="55">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
       <line nr="56">
@@ -92,6 +104,9 @@
       <line nr="60">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
+      <line nr="61">
+        <covered by="DaoBaixarParcelaTest::testGravar"/>
+      </line>
       <line nr="62">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
@@ -104,19 +119,13 @@
       <line nr="65">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="66">
-        <covered by="DaoBaixarParcelaTest::testGravar"/>
-      </line>
       <line nr="67">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="68">
-        <covered by="DaoBaixarParcelaTest::testGravar"/>
-      </line>
-      <line nr="69">
-        <covered by="DaoBaixarParcelaTest::testGravar"/>
-      </line>
       <line nr="71">
+        <covered by="DaoBaixarParcelaTest::testGravar"/>
+      </line>
+      <line nr="72">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
       <line nr="75">
@@ -125,13 +134,7 @@
       <line nr="76">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="79">
-        <covered by="DaoBaixarParcelaTest::testGravar"/>
-      </line>
-      <line nr="80">
-        <covered by="DaoBaixarParcelaTest::testGravar"/>
-      </line>
-      <line nr="81">
+      <line nr="78">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
     </coverage>
@@ -323,13 +326,6 @@
       </line>
       <line no="27">
         <token name="T_WHITESPACE">  </token>
-        <token name="T_PRINT">PRINT</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_VARIABLE">$sql</token>
-        <token name="T_SEMICOLON">;</token>
-      </line>
-      <line no="28">
-        <token name="T_WHITESPACE">  </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_EQUAL">=</token>
@@ -342,21 +338,21 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="29">
+      <line no="28">
         <token name="T_WHITESPACE">  </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="30">
+      <line no="29">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="31">
+      <line no="30">
         <token name="T_WHITESPACE"> </token>
       </line>
-      <line no="32">
+      <line no="31">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -368,7 +364,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="33">
+      <line no="32">
         <token name="T_WHITESPACE">  </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE">              </token>
@@ -382,7 +378,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="34">
+      <line no="33">
         <token name="T_WHITESPACE">  </token>
         <token name="T_VARIABLE">$dataBaixa</token>
         <token name="T_WHITESPACE">       </token>
@@ -401,7 +397,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="35">
+      <line no="34">
         <token name="T_WHITESPACE">  </token>
         <token name="T_VARIABLE">$valorNominal</token>
         <token name="T_WHITESPACE">    </token>
@@ -420,7 +416,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="36">
+      <line no="35">
         <token name="T_WHITESPACE">  </token>
         <token name="T_VARIABLE">$valorAcrescimo</token>
         <token name="T_WHITESPACE">  </token>
@@ -439,7 +435,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="37">
+      <line no="36">
         <token name="T_WHITESPACE">  </token>
         <token name="T_VARIABLE">$valorAbatimento</token>
         <token name="T_WHITESPACE"> </token>
@@ -458,7 +454,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="38">
+      <line no="37">
         <token name="T_WHITESPACE">  </token>
         <token name="T_VARIABLE">$valorBaixado</token>
         <token name="T_WHITESPACE">    </token>
@@ -477,8 +473,8 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="39"/>
-      <line no="40">
+      <line no="38"/>
+      <line no="39">
         <token name="T_WHITESPACE">  </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -501,7 +497,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="41">
+      <line no="40">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$idSituacaoBaixa</token>
         <token name="T_WHITESPACE">   </token>
@@ -510,7 +506,7 @@
         <token name="T_LNUMBER">1</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="42">
+      <line no="41">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$dataBaixa</token>
         <token name="T_WHITESPACE">         </token>
@@ -519,7 +515,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"null"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="43">
+      <line no="42">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$dataRegistroBaixa</token>
         <token name="T_WHITESPACE"> </token>
@@ -528,7 +524,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"null"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="44">
+      <line no="43">
         <token name="T_WHITESPACE">  </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -536,7 +532,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="45">
+      <line no="44">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$idSituacaoBaixa</token>
         <token name="T_WHITESPACE">   </token>
@@ -545,7 +541,7 @@
         <token name="T_LNUMBER">2</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="46">
+      <line no="45">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$dataBaixa</token>
         <token name="T_WHITESPACE">         </token>
@@ -564,7 +560,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="47">
+      <line no="46">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$dataRegistroBaixa</token>
         <token name="T_WHITESPACE"> </token>
@@ -573,52 +569,33 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"current_timestamp"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="48">
+      <line no="47">
         <token name="T_WHITESPACE">  </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="49"/>
-      <line no="50">
+      <line no="48"/>
+      <line no="49">
         <token name="T_WHITESPACE">  </token>
-        <token name="T_VARIABLE">$Opera</token>
-        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$gravou</token>
         <token name="T_EQUAL">=</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">"Altera"</token>
+        <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="51">
+      <line no="50">
         <token name="T_WHITESPACE">  </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_BRACKET">(</token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
-        <token name="T_IS_EQUAL">==</token>
+        <token name="T_IS_NOT_EQUAL">!=</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_LNUMBER">0</token>
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="52">
-        <token name="T_WHITESPACE">     </token>
-        <token name="T_VARIABLE">$Opera</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_EQUAL">=</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">"Cadastra"</token>
-        <token name="T_SEMICOLON">;</token>
-      </line>
-      <line no="53">
-        <token name="T_WHITESPACE">  </token>
-        <token name="T_CLOSE_CURLY">}</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_ELSE">else</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_OPEN_CURLY">{</token>
-      </line>
-      <line no="54">
+      <line no="51">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -630,10 +607,10 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="55">
+      <line no="52">
         <token name="T_WHITESPACE">     </token>
       </line>
-      <line no="56">
+      <line no="53">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -647,24 +624,17 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="57">
+      <line no="54">
         <token name="T_WHITESPACE">     </token>
       </line>
-      <line no="58">
-        <token name="T_WHITESPACE">     </token>
-        <token name="T_VARIABLE">$gravou</token>
-        <token name="T_EQUAL">=</token>
-        <token name="T_STRING">true</token>
-        <token name="T_SEMICOLON">;</token>
-      </line>
-      <line no="59">
+      <line no="55">
         <token name="T_WHITESPACE">     </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br&gt;&lt;br&gt;&lt;center&gt;&lt;div&gt;&lt;h2&gt;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="60">
+      <line no="56">
         <token name="T_WHITESPACE">     </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -681,7 +651,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="61">
+      <line no="57">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -690,43 +660,43 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">UPDATE COBRANCA</token>
       </line>
-      <line no="62">
+      <line no="58">
         <token name="T_ENCAPSED_AND_WHITESPACE">               SET ID_SITUACAO_BAIXA = </token>
         <token name="T_VARIABLE">$idSituacaoBaixa</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">,</token>
       </line>
-      <line no="63">
+      <line no="59">
         <token name="T_ENCAPSED_AND_WHITESPACE">                   DATA_BAIXA = </token>
         <token name="T_VARIABLE">$dataBaixa</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">,</token>
       </line>
-      <line no="64">
+      <line no="60">
         <token name="T_ENCAPSED_AND_WHITESPACE">                   DATA_REGISTRO_BAIXA = </token>
         <token name="T_VARIABLE">$dataRegistroBaixa</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">,</token>
       </line>
-      <line no="65">
+      <line no="61">
         <token name="T_ENCAPSED_AND_WHITESPACE">                   VALOR_ACRESCIMO = '</token>
         <token name="T_VARIABLE">$valorAcrescimo</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">',</token>
       </line>
-      <line no="66">
+      <line no="62">
         <token name="T_ENCAPSED_AND_WHITESPACE">                   VALOR_ABATIMENTOS = '</token>
         <token name="T_VARIABLE">$valorAbatimento</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">',</token>
       </line>
-      <line no="67">
+      <line no="63">
         <token name="T_ENCAPSED_AND_WHITESPACE">                   VALOR_BAIXADO = '</token>
         <token name="T_VARIABLE">$valorBaixado</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">'</token>
       </line>
-      <line no="68">
+      <line no="64">
         <token name="T_ENCAPSED_AND_WHITESPACE">             WHERE ID = </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="69">
+      <line no="65">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -740,8 +710,8 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="70"/>
-      <line no="71">
+      <line no="66"/>
+      <line no="67">
         <token name="T_WHITESPACE">        </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -752,21 +722,21 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="72">
+      <line no="68">
         <token name="T_WHITESPACE">           </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"Parcela n&#xE3;o gravada"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="73">
+      <line no="69">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$gravou</token>
         <token name="T_EQUAL">=</token>
         <token name="T_STRING">false</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="74">
+      <line no="70">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -774,65 +744,65 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="75">
+      <line no="71">
         <token name="T_WHITESPACE">           </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"Parcela gravada"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="76">
+      <line no="72">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$gravou</token>
         <token name="T_EQUAL">=</token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="77">
+      <line no="73">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="78">
+      <line no="74">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="79">
+      <line no="75">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/h2&gt;&lt;/div&gt;&lt;/center&gt;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="80">
+      <line no="76">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br&gt;&lt;br&gt;&lt;center&gt;&lt;div&gt;&lt;h2&gt;&lt;a href=\"JavaScript:history.go(-2)\" title=\"Retorna para p&#xE1;gina com a lista.\"&gt;&amp;nbsp;Volta&amp;nbsp;&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/center&gt;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="81">
-        <token name="T_WHITESPACE">    </token>
+      <line no="77">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="78">
+        <token name="T_WHITESPACE">  </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$gravou</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="82">
-        <token name="T_WHITESPACE">  </token>
-        <token name="T_CLOSE_CURLY">}</token>
-      </line>
-      <line no="83">
+      <line no="79">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="84">
+      <line no="80">
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="85">
+      <line no="81">
         <token name="T_CLOSE_TAG">?&gt;</token>
         <token name="T_INLINE_HTML"> </token>
       </line>
-      <line no="86"/>
+      <line no="82"/>
     </source>
   </file>
 </phpunit>
