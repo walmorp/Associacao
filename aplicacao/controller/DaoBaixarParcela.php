@@ -64,8 +64,6 @@ class DaoBaixarParcela extends Conexao implements View {
              WHERE ID = $id";
         $r = self::query($sql);
         
-        print "sql" .$sql;
-
         if (!$r) {
            print "Parcela não gravada";
            $gravou=false;
