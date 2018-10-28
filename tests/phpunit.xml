@@ -22,10 +22,9 @@
       <directory suffix=".php">../aplicacao</directory>
       <exclude>
         <!-- Ignorando arquivo na cobertura de testes -->
-        <file>../aplicacao/view/**</file>
+        <file>../aplicacao/.htaccess</file>
         <file>../aplicacao/config.ini</file>
         <file>../aplicacao/index.php</file>
-        <file>../aplicacao/.htaccess</file>
         <file>../aplicacao/Avisos1.php</file>
         <file>../aplicacao/Avisos2.php</file>
         <file>../aplicacao/Avisos1.php</file>
@@ -33,34 +32,14 @@
         <file>../aplicacao/bootstrap.php</file>
         <file>../aplicacao/controller/ControleCadastro.php</file>
         <file>../aplicacao/controller/ValidaSessao.php</file>
-        <file>../aplicacao/view/AssociacaoAPP.php</file>
-        <file>../aplicacao/view/BaixarParcela.php</file>
-        <file>../aplicacao/view/BotoesCadastro.php</file>
-        <file>../aplicacao/view/CadastraParcelas.php</file>
-        <file>../aplicacao/view/ControleAssociado.php</file>
-        <file>../aplicacao/view/ControleCidade.php</file>
-        <file>../aplicacao/view/ControleCobranca.php</file>
-        <file>../aplicacao/view/ControleTipoCobranca.php</file>
-        <file>../aplicacao/view/ControleTitulo.php</file>
-        <file>../aplicacao/view/DefineEstilo.php</file>
-        <file>../aplicacao/view/DefineHeadMeta.php</file>
-        <file>../aplicacao/view/DefineHeadMetaB.php</file>
-        <file>../aplicacao/view/Home.php</file>
-        <file>../aplicacao/view/ImprimirParcela.php</file>
-        <file>../aplicacao/view/Login.php</file>
-        <file>../aplicacao/view/LoginAPP.php</file>
-        <file>../aplicacao/view/MensagemGravando.php</file>
-        <file>../aplicacao/view/Mostra_Msg_Ret.php</file>
-        <file>../aplicacao/view/RelacionaParcelasAssociado.php</file>
-        <file>../aplicacao/view/RelatorioCobrador.php</file>
-        <file>../aplicacao/view/RelatorioGerencial.php</file>
-		<file>../aplicacao/model/Cadastro.php</file>
-		<file>../aplicacao/model/Tabela.php</file>
-		<file>../aplicacao/model/Relatorio.php</file>
-		<file>../aplicacao/model/Titulo.php</file>
-		<file>../aplicacao/model/View.php</file>
+        <file>../aplicacao/model/Cadastro.php</file>
+        <file>../aplicacao/model/Tabela.php</file>
+        <file>../aplicacao/model/Relatorio.php</file>
+        <file>../aplicacao/model/Titulo.php</file>
+        <file>../aplicacao/model/View.php</file>
         <!-- Ignorando diretório na cobertura de testes -->
         <directory>../aplicacao/lib</directory>
+        <directory>../aplicacao/view</directory>
       </exclude>
     </whitelist>
   </filter>

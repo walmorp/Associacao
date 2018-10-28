@@ -2,19 +2,19 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="DaoBaixarParcela.php" path="/controller">
     <totals>
-      <lines total="83" comments="0" code="83" executable="43" executed="41" percent="95.35"/>
+      <lines total="81" comments="0" code="81" executable="42" executed="40" percent="95.24"/>
       <methods count="4" tested="3" percent="75.00"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="DaoBaixarParcela" start="6" executable="43" executed="41" crap="8">
+    <class name="DaoBaixarParcela" start="6" executable="42" executed="40" crap="8">
       <package full="" name="" sub="" category=""/>
       <namespace name=""/>
       <method name="getClassView" signature="getClassView()" start="9" end="11" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="executaView" signature="executaView()" start="13" end="16" crap="1" executable="2" executed="2" coverage="100"/>
       <method name="getParcela" signature="getParcela()" start="18" end="29" crap="1" executable="4" executed="4" coverage="100"/>
-      <method name="gravar" signature="gravar()" start="31" end="81" crap="5.00" executable="36" executed="34" coverage="94.444444444444"/>
+      <method name="gravar" signature="gravar()" start="31" end="79" crap="5.00" executable="35" executed="33" coverage="94.285714285714"/>
     </class>
     <coverage>
       <line nr="10">
@@ -122,22 +122,19 @@
       <line nr="67">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="69">
+      <line nr="71">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="73">
+      <line nr="72">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="74">
+      <line nr="75">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
-      <line nr="77">
+      <line nr="76">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
       <line nr="78">
-        <covered by="DaoBaixarParcelaTest::testGravar"/>
-      </line>
-      <line nr="80">
         <covered by="DaoBaixarParcelaTest::testGravar"/>
       </line>
     </coverage>
@@ -718,17 +715,6 @@
       </line>
       <line no="67">
         <token name="T_WHITESPACE">        </token>
-        <token name="T_PRINT">print</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">"sql"</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_DOT">.</token>
-        <token name="T_VARIABLE">$sql</token>
-        <token name="T_SEMICOLON">;</token>
-      </line>
-      <line no="68"/>
-      <line no="69">
-        <token name="T_WHITESPACE">        </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_BRACKET">(</token>
@@ -738,21 +724,21 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="70">
+      <line no="68">
         <token name="T_WHITESPACE">           </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"Parcela n&#xE3;o gravada"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="71">
+      <line no="69">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$gravou</token>
         <token name="T_EQUAL">=</token>
         <token name="T_STRING">false</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="72">
+      <line no="70">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -760,65 +746,65 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="73">
+      <line no="71">
         <token name="T_WHITESPACE">           </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"Parcela gravada"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="74">
+      <line no="72">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$gravou</token>
         <token name="T_EQUAL">=</token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="75">
+      <line no="73">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="76">
+      <line no="74">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="77">
+      <line no="75">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/h2&gt;&lt;/div&gt;&lt;/center&gt;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="78">
+      <line no="76">
         <token name="T_WHITESPACE">    </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br&gt;&lt;br&gt;&lt;center&gt;&lt;div&gt;&lt;h2&gt;&lt;a href=\"JavaScript:history.go(-2)\" title=\"Retorna para p&#xE1;gina com a lista.\"&gt;&amp;nbsp;Volta&amp;nbsp;&lt;/a&gt;&lt;/h2&gt;&lt;/div&gt;&lt;/center&gt;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="79">
+      <line no="77">
         <token name="T_WHITESPACE">  </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="80">
+      <line no="78">
         <token name="T_WHITESPACE">  </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$gravou</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="81">
+      <line no="79">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="82">
+      <line no="80">
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="83">
+      <line no="81">
         <token name="T_CLOSE_TAG">?&gt;</token>
         <token name="T_INLINE_HTML"> </token>
       </line>
-      <line no="84"/>
+      <line no="82"/>
     </source>
   </file>
 </phpunit>
