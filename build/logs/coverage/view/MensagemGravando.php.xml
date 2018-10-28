@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="MensagemGravando.php" path="/view">
+    <totals>
+      <lines total="14" comments="0" code="14" executable="1" executed="0" percent="0.00"/>
+      <methods count="0" tested="0" percent="0"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="0" tested="0" percent="0"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <source>
+      <line no="1">
+        <token name="T_INLINE_HTML">&#xFEFF; &lt;Center&gt;</token>
+      </line>
+      <line no="2">
+        <token name="T_INLINE_HTML"> &lt;div id="Mensagem" name="Mensagem" style="display: none; position: relative; top: -280px; width: 400px; height: 80px; margin-top: -50px; margin-bottom: -50px; padding: 4px; border: 4px outset white; background: #20B2AA;"&gt;</token>
+      </line>
+      <line no="3">
+        <token name="T_INLINE_HTML"> &lt;Table style="border: 2px inset white;" width="100%" height="100%"&gt;</token>
+      </line>
+      <line no="4">
+        <token name="T_INLINE_HTML">  &lt;tr Align="center"&gt;</token>
+      </line>
+      <line no="5">
+        <token name="T_INLINE_HTML">   &lt;td Align="center"&gt;</token>
+      </line>
+      <line no="6">
+        <token name="T_INLINE_HTML">    &lt;span id="TextoMensagem" name="TextoMensagem" style="font: 14px Verdana, Arial, Helvetica, Sans-serif; color: white; font-weight: bold;"&gt;Por favor, aguarde...&lt;/span&gt;</token>
+      </line>
+      <line no="7">
+        <token name="T_INLINE_HTML">   &lt;/td&gt;</token>
+      </line>
+      <line no="8">
+        <token name="T_INLINE_HTML">  &lt;/tr&gt;</token>
+      </line>
+      <line no="9">
+        <token name="T_INLINE_HTML"> &lt;/Table&gt;</token>
+      </line>
+      <line no="10">
+        <token name="T_INLINE_HTML"> &lt;/div&gt;</token>
+      </line>
+      <line no="11">
+        <token name="T_INLINE_HTML"> &lt;/Center&gt;</token>
+      </line>
+      <line no="12">
+        <token name="T_INLINE_HTML">&lt;Script language="JavaScript"&gt;</token>
+      </line>
+      <line no="13">
+        <token name="T_INLINE_HTML">OcultaMensagem();</token>
+      </line>
+      <line no="14">
+        <token name="T_INLINE_HTML">&lt;/Script&gt;    </token>
+      </line>
+      <line no="15"/>
+    </source>
+  </file>
+</phpunit>

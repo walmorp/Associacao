@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Sun Oct 28 14:58:29 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
+    <runtime name="PHP" version="7.2.10" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="2.6.1"/>
+  </build>
+  <project source="C:\Apache24\htdocs\Associacao\aplicacao">
+    <tests>
+      <test name="ConexaoTest::testConexao" size="unknown" result="0" status="PASSED"/>
+      <test name="ConexaoTest::testGetConexao" size="unknown" result="0" status="PASSED"/>
+      <test name="ConexaoTest::testFreeResult" size="unknown" result="0" status="PASSED"/>
+      <test name="ConexaoTest::testQuery" size="unknown" result="0" status="PASSED"/>
+      <test name="ConexaoTest::testFecha" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoBaixarParcelaTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoBaixarParcelaTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoBaixarParcelaTest::testGravar" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoBaixarParcelaTest::testGetParcela" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoCadastraParcelasTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoCadastraParcelasTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoCadastraParcelasTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoCadastraParcelasTest::testGetParcelaProcessadas" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoCadastraParcelasTest::testGravar" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoCadastraParcelasTest::testGravarVarios" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testGetClassModel" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testInsere" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testExiste" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testApaga" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testAltera" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testGravar" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testLer" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleAssociadoTest::testLista" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testGetClassModel" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testGravar" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testExiste" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testInsere" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testAltera" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testApaga" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testLer" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCidadeTest::testLista" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testGetClassModel" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testInsere" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testExiste" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testApaga" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testGravar" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testAltera" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testLerAssociadoTitulo" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testLer" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleCobrancaTest::testLista" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testGetClassModel" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testExiste" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testAltera" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testGravar" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testApaga" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testInsere" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testLer" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTipoCobrancaTest::testLista" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testGetClassModel" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testGravar" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testExiste" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testApaga" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testInsere" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testAltera" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testLer" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoControleTituloTest::testLista" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoHomeTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoHomeTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoHomeTest::testMostraParcelasEmAberto" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoHomeTest::testMostraAssociadosAtivos" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoHomeTest::testMostraTitulosAtivos" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoImprimirParcelaTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoImprimirParcelaTest::testMostraRelatorio" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoImprimirParcelaTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoLoginAPPTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoLoginAPPTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoLoginAPPTest::testExecLogin" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelacionaParcelasAssociadoTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelacionaParcelasAssociadoTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelacionaParcelasAssociadoTest::testMostraRelatorio" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelatorioCobradorTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelatorioCobradorTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelatorioCobradorTest::testMostraRelatorio" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelatorioGerencialTest::testGetClassView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelatorioGerencialTest::testExecutaView" size="unknown" result="0" status="PASSED"/>
+      <test name="DaoRelatorioGerencialTest::testMostraRelatorio" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testOpcaoSelecione" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testGetCampo" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testGetCampoFalse" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testCampoExiste" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testArrumaDataHora" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testArrumaData" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testFormataValorDecimal" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testConverteDataParaIB" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testConverteDataHoraParaIB" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testIniciaDados" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testAlterarDados" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testApagarDados" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testConsultarDados" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testMontaDados" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testMostraCampoID" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testRetornaProximoID" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testMostraTabelaBDConectado" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testMostraAviso" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularAssociadoCadParcelas" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularAssociado" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularTipoCobranca" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularSituacaoBaixa" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularTitulo" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularTipoTitulo" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularSituacaoTitulo" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularGenero" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularCidade" size="unknown" result="0" status="PASSED"/>
+      <test name="FuncaoSistemaTest::testPopularSituacaoAssociado" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testSet" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetId" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetNome" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetId_genero" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetEndereco" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetNascimento" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetCpf" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetCidade" size="unknown" result="0" status="PASSED"/>
+      <test name="AssociadoTest::testGetId_situacao" size="unknown" result="0" status="PASSED"/>
+      <test name="CidadeTest::testSet" size="unknown" result="0" status="PASSED"/>
+      <test name="CidadeTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="CidadeTest::testGetId" size="unknown" result="0" status="PASSED"/>
+      <test name="CidadeTest::testGetNome" size="unknown" result="0" status="PASSED"/>
+      <test name="CidadeTest::testGetSigla_uf" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testSet" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetId" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetTitulo" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetAssociado" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetTipoCobranca" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetId_situacao_baixa" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetData_registro_parcela" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetData_vencimento" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetData_baixa" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetData_registro_baixa" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetValor_nominal" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetValor_acrescimo" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetValor_abatimentos" size="unknown" result="0" status="PASSED"/>
+      <test name="CobrancaTest::testGetValor_baixado" size="unknown" result="0" status="PASSED"/>
+      <test name="TipoCobrancaTest::testSet" size="unknown" result="0" status="PASSED"/>
+      <test name="TipoCobrancaTest::testGetTabela" size="unknown" result="0" status="PASSED"/>
+      <test name="TipoCobrancaTest::testGetId" size="unknown" result="0" status="PASSED"/>
+      <test name="TipoCobrancaTest::testGetDescricao" size="unknown" result="0" status="PASSED"/>
+      <test name="TipoCobrancaTest::testGetSigla" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="2023" comments="24" code="1999" executable="977" executed="907" percent="92.84"/>
+        <methods count="179" tested="129" percent="72.07"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="19" tested="8" percent="42.11"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <directory name="controller">
+        <totals>
+          <lines total="1735" comments="24" code="1711" executable="892" executed="822" percent="92.15"/>
+          <methods count="121" tested="71" percent="58.68"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="15" tested="4" percent="26.67"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Conexao.php" href="controller/Conexao.php.xml">
+          <totals>
+            <lines total="66" comments="4" code="62" executable="32" executed="29" percent="90.62"/>
+            <methods count="6" tested="3" percent="50.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoBaixarParcela.php" href="controller/DaoBaixarParcela.php.xml">
+          <totals>
+            <lines total="85" comments="0" code="85" executable="46" executed="39" percent="84.78"/>
+            <methods count="4" tested="3" percent="75.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoCadastraParcelas.php" href="controller/DaoCadastraParcelas.php.xml">
+          <totals>
+            <lines total="125" comments="2" code="123" executable="60" executed="60" percent="100.00"/>
+            <methods count="7" tested="7" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoControleAssociado.php" href="controller/DaoControleAssociado.php.xml">
+          <totals>
+            <lines total="124" comments="0" code="124" executable="66" executed="59" percent="89.39"/>
+            <methods count="11" tested="5" percent="45.45"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoControleCidade.php" href="controller/DaoControleCidade.php.xml">
+          <totals>
+            <lines total="96" comments="0" code="96" executable="46" executed="40" percent="86.96"/>
+            <methods count="11" tested="5" percent="45.45"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoControleCobranca.php" href="controller/DaoControleCobranca.php.xml">
+          <totals>
+            <lines total="185" comments="0" code="185" executable="105" executed="98" percent="93.33"/>
+            <methods count="12" tested="8" percent="66.67"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoControleTipoCobranca.php" href="controller/DaoControleTipoCobranca.php.xml">
+          <totals>
+            <lines total="96" comments="0" code="96" executable="46" executed="40" percent="86.96"/>
+            <methods count="11" tested="5" percent="45.45"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoControleTitulo.php" href="controller/DaoControleTitulo.php.xml">
+          <totals>
+            <lines total="117" comments="0" code="117" executable="60" executed="53" percent="88.33"/>
+            <methods count="11" tested="5" percent="45.45"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoHome.php" href="controller/DaoHome.php.xml">
+          <totals>
+            <lines total="67" comments="0" code="67" executable="18" executed="18" percent="100.00"/>
+            <methods count="5" tested="5" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoImprimirParcela.php" href="controller/DaoImprimirParcela.php.xml">
+          <totals>
+            <lines total="35" comments="0" code="35" executable="9" executed="8" percent="88.89"/>
+            <methods count="3" tested="2" percent="66.67"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoLoginAPP.php" href="controller/DaoLoginAPP.php.xml">
+          <totals>
+            <lines total="38" comments="0" code="38" executable="16" executed="15" percent="93.75"/>
+            <methods count="3" tested="2" percent="66.67"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoRelacionaParcelasAssociado.php" href="controller/DaoRelacionaParcelasAssociado.php.xml">
+          <totals>
+            <lines total="67" comments="0" code="67" executable="27" executed="24" percent="88.89"/>
+            <methods count="3" tested="2" percent="66.67"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoRelatorioCobrador.php" href="controller/DaoRelatorioCobrador.php.xml">
+          <totals>
+            <lines total="43" comments="0" code="43" executable="8" executed="8" percent="100.00"/>
+            <methods count="3" tested="3" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DaoRelatorioGerencial.php" href="controller/DaoRelatorioGerencial.php.xml">
+          <totals>
+            <lines total="63" comments="0" code="63" executable="22" executed="22" percent="100.00"/>
+            <methods count="3" tested="3" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="FuncaoSistema.php" href="controller/FuncaoSistema.php.xml">
+          <totals>
+            <lines total="528" comments="18" code="510" executable="331" executed="309" percent="93.35"/>
+            <methods count="28" tested="13" percent="46.43"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="model">
+        <totals>
+          <lines total="288" comments="0" code="288" executable="85" executed="85" percent="100.00"/>
+          <methods count="58" tested="58" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="4" tested="4" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Associado.php" href="model/Associado.php.xml">
+          <totals>
+            <lines total="83" comments="0" code="83" executable="25" executed="25" percent="100.00"/>
+            <methods count="17" tested="17" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="Cidade.php" href="model/Cidade.php.xml">
+          <totals>
+            <lines total="38" comments="0" code="38" executable="10" executed="10" percent="100.00"/>
+            <methods count="7" tested="7" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="Cobranca.php" href="model/Cobranca.php.xml">
+          <totals>
+            <lines total="129" comments="0" code="129" executable="40" executed="40" percent="100.00"/>
+            <methods count="27" tested="27" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="TipoCobranca.php" href="model/TipoCobranca.php.xml">
+          <totals>
+            <lines total="38" comments="0" code="38" executable="10" executed="10" percent="100.00"/>
+            <methods count="7" tested="7" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+    </directory>
+  </project>
+</phpunit>

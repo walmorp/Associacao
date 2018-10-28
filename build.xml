@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ProjetoTeste" default="build">
+
+    <property name="appsource" value="${basedir}/aplicacao"/>
+    <property name="toolsdir" value="${basedir}/bin/" />
+
+    <condition property="script-suffix" value=".bat" else="">
+        <os family="windows" />
+    </condition>
+
+    <target name="build" depends="prepare,phpunit,phpmd,compress" />
+
+    <target name="prepare" depends="clean" description="Create artifact directories">
+        <mkdir dir="${basedir}/build" />
+        <mkdir dir="${basedir}/build/logs" />
+        <mkdir dir="${basedir}/build/coverage" />
+    </target>
+
+    <target name="clean" description="Clean up artifact directories">
+        <delete dir="${basedir}/build" />
+    </target>
+
+    <target name="phpunit" description="Run unit tests using PHPUnit and generates reports">
+        <exec executable="${toolsdir}phpunit${script-suffix}" dir="${basedir}/tests" failonerror="true" />
+    </target>
+
+    <target name="phpmd" description="Generate pmd.xml using PHPMD">
+        <exec executable="${toolsdir}phpmd${script-suffix}" failonerror="false">
+            <arg path="${appsource}" />
+            <arg value="xml" />
+            <arg path="${basedir}/phpmd.xml" />
+            <arg value="--reportfile" />
+            <arg path="${basedir}/build/logs/pmd.xml" />
+        </exec>
+    </target>
+	
+    <target name="compress" description="Generate application.tar package using Tar">
+            <zip destfile="${basedir}/build/${ant.project.name}.zip" basedir="${basedir}" excludes=".svn/**, build/**, vendor/**, view/**, aplicacao/config.ini, aplicacao/index.php, aplicacao/Avisos1.php, aplicacao/Avisos2.php, aplicacao/Avisos1.php, aplicacao/defineVar.php, aplicacao/bootstrap.php, aplicacao/ControleCadastro.php" />
+    </target>
+
+
+</project>

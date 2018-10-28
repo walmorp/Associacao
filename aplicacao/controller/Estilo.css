@@ -1,0 +1,200 @@
+﻿body {
+  background-color: #E4E4E4;
+  font: normal 10px Verdana, Arial, Helvetica, Sans-serif;
+  }
+
+.noPrint  {
+  position: relative;
+      
+  } 
+A:link {
+  text-decoration: none;
+  }
+A:visited {
+  text-decoration: none;
+  }
+A:active {
+  text-decoration: none;
+  }
+A:hover {
+  text-decoration: none;
+  }
+  
+UL {
+  color: white;
+  background: #20B2AA;
+  position:relative;
+  display: block;
+  list-style-type: none;
+  text-align: center;
+  vertical-align: middle; 
+  border: 3px outset gray;
+  /*width: 304px;*/
+  padding: 2px;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: bold; 
+  font-size: 10px; 
+  font-family: Verdana, Arial, Helvetica, Sans-serif
+  }
+LI {
+  color: white;
+  display: block;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  /*width: 300px;*/
+  height: 24px;
+  border: 1px outset black;
+  margin-top: 4px;
+  margin-right: 4px;
+  font-size: 10px; 
+  }
+LI a {
+  color: white;
+  background: #20B2AA;
+  display: block;
+  top: 2px; 
+  width: 100%;
+  height: 100%;
+  }
+LI a:hover {
+  color: #006C00;
+  border: 2px inset gray;
+  background: 00CED1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  }
+
+.campoAviso1 {
+  color: greenyellow;
+  background: #20B2AA;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: bold; 
+  text-align: center;
+  vertical-align: middle; 
+  }  
+
+.campoAviso2 {
+  color: red;
+  background: #20B2AA;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: bold; 
+  text-align: center;
+  vertical-align: middle; 
+  }  
+.bordaTopo {
+  background: #20B2AA;
+  }  
+.bordaAvisos {
+  background: #20B2AA;
+  }  
+.bordaMenu {
+  background: #20B2AA;
+  }  
+.tituloMenu {
+  color: white;
+  background: #20B2AA;
+  }
+.menu {
+  color: white;
+  background: #20B2AA;
+  }
+.tituloAplicativo {
+  color: white;
+  background: #20B2AA;
+  font-size: 14px; 
+  }  
+.tituloCadastro {
+  color: white;
+  background: #20B2AA;
+  font-size: 12px; 
+  }
+.tabelaCadastro {
+  background: #20B2AA;
+  width: 100%;
+  font-size: 10px; 
+}
+.labelCadastro {
+  width: 150px;
+  font-size: 10px; 
+}
+.campoID {
+  background: lightcyan;
+  width: 50px;
+  border: 1px inset gray;
+  font-weight: bold; 
+  text-align: center;
+}
+.campo {
+  background: white;
+  font-size: 10px; 
+}
+.campoErro {
+  background: red;
+}
+.campoCadastro {
+  background: #20B2AA;
+}
+
+.botaoGravar {
+  color: white;
+  background: #20B2AA;
+  width: 200px;
+  height: 24px;
+  }
+.botaoReiniciar {
+  color: white;
+  background: #20B2AA;
+  width: 200px;
+  height: 24px;
+  }
+.botaoLimpar {
+  color: white;
+  background: #20B2AA;
+  width: 200px;
+  height: 24px;
+  }
+.botaoNovo {
+  color: white;
+  background: #20B2AA;
+  width: 200px;
+  height: 24px;
+  }  
+  
+.botaoBaixar {
+  color: white;
+  background: #20B2AA;
+  width: 200px;
+  height: 30px;
+  }
+
+.campoObrigatorio {
+  color: red;
+  }
+.labelCampoObrigatorio {
+  display: block;
+  text-align: right;
+}
+.tabela {
+  background: #20B2AA;
+  font-size: 10px; 
+  }
+.tabelath {
+  background: #20B2AA;
+  font-size: 10px; 
+  }
+.tabelatd1 {
+  background: #F0F8FF;
+  font-size: 10px; 
+  }
+.tabelatd2 {
+  background: #20B2AA;
+  font-size: 10px; 
+  }
+  
+  
+  

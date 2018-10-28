@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="DefineEstilo.php" path="/view">
+    <totals>
+      <lines total="12" comments="0" code="12" executable="9" executed="0" percent="0.00"/>
+      <methods count="0" tested="0" percent="0"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="0" tested="0" percent="0"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <source>
+      <line no="1">
+        <token name="T_INLINE_HTML">&#xFEFF;</token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+      </line>
+      <line no="2">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'defineVar.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="3">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$ArqEstilo</token>
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/Estilo.css'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/Scripts.js'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="5">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$VersaoArq</token>
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">date</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"dmYGis"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">filemtime</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$ArqEstilo</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="6">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$VersaoArqJS</token>
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">date</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"dmYGis"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">filemtime</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="7">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$ArqEstilo</token>
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__HOST_APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/Estilo.css'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="8">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__HOST_APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/Scripts.js'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="9">
+        <token name="T_WHITESPACE">  </token>
+      </line>
+      <line no="10">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">&lt;style type='text/css'&gt; @import '</token>
+        <token name="T_VARIABLE">$ArqEstilo</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">?</token>
+        <token name="T_VARIABLE">$VersaoArq</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">';&lt;/style&gt;\n</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="11">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">&lt;script type='text/javascript' src='</token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">?</token>
+        <token name="T_VARIABLE">$VersaoArqJS</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">'&gt;&lt;/script&gt;\n</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="12">
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="13"/>
+    </source>
+  </file>
+</phpunit>

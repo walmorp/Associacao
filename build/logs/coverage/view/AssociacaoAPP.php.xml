@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="AssociacaoAPP.php" path="/view">
+    <totals>
+      <lines total="83" comments="0" code="83" executable="68" executed="0" percent="0.00"/>
+      <methods count="0" tested="0" percent="0"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="0" tested="0" percent="0"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <source>
+      <line no="1">
+        <token name="T_INLINE_HTML">&#xFEFF;</token>
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_AT">@</token>
+        <token name="T_STRING">session_start</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="3">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$_SESSION</token>
+        <token name="T_OPEN_SQUARE">[</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'id'</token>
+        <token name="T_CLOSE_SQUARE">]</token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"0"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4"/>
+      <line no="5">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'defineVar.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="6">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/Conexao.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="7">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/Mostra_Msg_Ret.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="8">
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="9">
+        <token name="T_INLINE_HTML">&lt;!DOCTYPE html&gt;</token>
+      </line>
+      <line no="10">
+        <token name="T_INLINE_HTML">&lt;html&gt;</token>
+      </line>
+      <line no="11">
+        <token name="T_INLINE_HTML">    &lt;head&gt;</token>
+      </line>
+      <line no="12">
+        <token name="T_INLINE_HTML">        </token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/DefineHeadMeta.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="13">
+        <token name="T_INLINE_HTML">        </token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/DefineEstilo.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="14">
+        <token name="T_INLINE_HTML">        &lt;title&gt;Associa&#xE7;&#xE3;o recreativa&lt;/title&gt;</token>
+      </line>
+      <line no="15">
+        <token name="T_INLINE_HTML">    &lt;/head&gt;</token>
+      </line>
+      <line no="16">
+        <token name="T_INLINE_HTML">    &lt;body onload="MostraTamanho();" onresize="MostraTamanho();"&gt;</token>
+      </line>
+      <line no="17">
+        <token name="T_INLINE_HTML">        </token>
+      </line>
+      <line no="18">
+        <token name="T_INLINE_HTML">        &lt;table id='idJanela' width='1200' height='700' valign='center' align='center' border='1'&gt;</token>
+      </line>
+      <line no="19">
+        <token name="T_INLINE_HTML">          &lt;tr class='bordaTopo' height='50px'&gt;</token>
+      </line>
+      <line no="20">
+        <token name="T_INLINE_HTML">              &lt;td colspan="2"&gt;&lt;center&gt;&lt;h1 class='tituloAplicativo'&gt;Associa&#xE7;&#xE3;o Recreativa&lt;/h1&gt;&lt;/center&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="21">
+        <token name="T_INLINE_HTML">          &lt;/tr&gt;</token>
+      </line>
+      <line no="22">
+        <token name="T_INLINE_HTML">          &lt;tr class='bordaMenu'&gt;</token>
+      </line>
+      <line no="23">
+        <token name="T_INLINE_HTML">              &lt;td width="180px" valign='center' align='center'&gt;</token>
+      </line>
+      <line no="24">
+        <token name="T_INLINE_HTML">                 &lt;ul&gt;</token>
+      </line>
+      <line no="25">
+        <token name="T_INLINE_HTML">                  &lt;li class='tituloMenu'&gt;Menu&lt;/li&gt;</token>
+      </line>
+      <line no="26">
+        <token name="T_INLINE_HTML">                  &lt;hr size='12'&gt;</token>
+      </line>
+      <line no="27">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="Home"             href="?class=Home"                     target="iframeCentro" title="Mostra p&#xE1;gina inicial"&gt;In&#xED;cio&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="28">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="29">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="Associado"        href="?class=ControleAssociado&amp;opSA=A" target="iframeCentro" title="Inicia controle de associados"&gt;Controle de associados&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="30">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="31">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="Titulo"           href="?class=ControleTitulo&amp;opST=A"    target="iframeCentro" title="Inicia controle de t&#xED;tulos dos associados"&gt;Controle de t&#xED;tulos&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="32">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="33">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="Cobranca"         href="?class=ControleCobranca"         target="iframeCentro" title="Inicia controle de parcelas"&gt;Controle de parcelas&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="34">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="35">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="Cidade"           href="?class=ControleCidade"           target="iframeCentro" title="Inicia controle de cidades"&gt;Controle de cidades&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="36">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="37">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="TipoCobranca"     href="?class=ControleTipoCobranca"     target="iframeCentro" title="Inicia tipos de cobran&#xE7;a"&gt;Tipos de cobran&#xE7;a&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="38">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="39">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="AssociadoInativo" href="?class=ControleAssociado&amp;opSA=I" target="iframeCentro" title="Inicia associados inativos"&gt;Associados inativos&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="40">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="41">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="TituloInativo"    href="?class=ControleTitulo&amp;opST=I"    target="iframeCentro" title="Inicia associados inativos"&gt;T&#xED;tulos inativos&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="42">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="43">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="Gerencial"        href="?class=RelatorioGerencial"       target="iframeCentro" title="Inicia relat&#xF3;rio gerencial"&gt;Relat&#xF3;rio gerencial&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="44">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="45">
+        <token name="T_INLINE_HTML">                  &lt;li class='menu'&gt;&lt;a id="Cobrador"         href="?class=RelatorioCobrador"        target="iframeCentro" title="Inicia relat&#xF3;rio para cobrador"&gt;Relat&#xF3;rio para cobrador&lt;/a&gt; &lt;/li&gt;</token>
+      </line>
+      <line no="46">
+        <token name="T_INLINE_HTML">                  &lt;hr size='3'&gt;</token>
+      </line>
+      <line no="47">
+        <token name="T_INLINE_HTML">                 &lt;/ul&gt;</token>
+      </line>
+      <line no="48">
+        <token name="T_INLINE_HTML">              &lt;/td&gt;</token>
+      </line>
+      <line no="49">
+        <token name="T_INLINE_HTML">              &lt;td id='idJanelaNavegacao'&gt;&lt;iframe id='iframeCentro' name='iframeCentro' width="100%" height='100%' valign='center' align='center' src="?class=Home"&gt;&lt;/iframe&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="50">
+        <token name="T_INLINE_HTML">          &lt;/tr&gt;</token>
+      </line>
+      <line no="51">
+        <token name="T_INLINE_HTML">          &lt;tr class='bordaAvisos' id='bordaAvisos' height='60px'&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="52">
+        <token name="T_INLINE_HTML">              &lt;td align='center'&gt;&amp;nbsp;&amp;nbsp;Avisos: </token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_VARIABLE">$con</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_NEW">new</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Conexao</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="53">
+        <token name="T_INLINE_HTML">              &lt;td align='left'&gt;&lt;output class='campoAviso1' id='campoAviso1' name='campoAviso1'&gt;</token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_VARIABLE">$con</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">mostraAviso</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_LNUMBER">60</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_LNUMBER">180</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+        <token name="T_INLINE_HTML">&lt;/output&gt;</token>
+      </line>
+      <line no="54">
+        <token name="T_INLINE_HTML">                           &lt;br&gt;&lt;output class='campoAviso2' id='campoAviso2' name='campoAviso2'&gt;</token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_VARIABLE">$con</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">mostraAviso</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_LNUMBER">180</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_LNUMBER">1800</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+        <token name="T_INLINE_HTML">&lt;/output&gt;</token>
+      </line>
+      <line no="55">
+        <token name="T_INLINE_HTML">              &lt;/td&gt;</token>
+      </line>
+      <line no="56">
+        <token name="T_INLINE_HTML">          &lt;/tr&gt;</token>
+      </line>
+      <line no="57">
+        <token name="T_INLINE_HTML">      &lt;/table&gt;</token>
+      </line>
+      <line no="58">
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="59">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/MostraAvisos1.js'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="60">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$VersaoArqJS</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">date</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"dmYGis"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">filemtime</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="61">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__HOST_APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/MostraAvisos1.js'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="62">
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="63">
+        <token name="T_INLINE_HTML">  &lt;script&gt;</token>
+      </line>
+      <line no="64">
+        <token name="T_INLINE_HTML">   var worker1 = new Worker('</token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_PRINT">print</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">?</token>
+        <token name="T_VARIABLE">$VersaoArqJS</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+        <token name="T_INLINE_HTML">');</token>
+      </line>
+      <line no="65">
+        <token name="T_INLINE_HTML">   worker1.onmessage = function (event) {</token>
+      </line>
+      <line no="66">
+        <token name="T_INLINE_HTML">     document.getElementById('campoAviso1').textContent = event.data;</token>
+      </line>
+      <line no="67">
+        <token name="T_INLINE_HTML">   };</token>
+      </line>
+      <line no="68">
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="69">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/MostraAvisos2.js'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="70">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$VersaoArqJS</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">date</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"dmYGis"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">filemtime</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="71">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__HOST_APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/MostraAvisos2.js'</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="72">
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="73">
+        <token name="T_INLINE_HTML">   var worker2 = new Worker('</token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_PRINT">print</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_VARIABLE">$ArqJS</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">?</token>
+        <token name="T_VARIABLE">$VersaoArqJS</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+        <token name="T_INLINE_HTML">');</token>
+      </line>
+      <line no="74">
+        <token name="T_INLINE_HTML">   worker2.onmessage = function (event) {</token>
+      </line>
+      <line no="75">
+        <token name="T_INLINE_HTML">     document.getElementById('campoAviso2').textContent = event.data;</token>
+      </line>
+      <line no="76">
+        <token name="T_INLINE_HTML">   };</token>
+      </line>
+      <line no="77">
+        <token name="T_INLINE_HTML">  &lt;/script&gt;</token>
+      </line>
+      <line no="78">
+        <token name="T_INLINE_HTML">&lt;center&gt;&lt;small&gt;&lt;br&gt;</token>
+      </line>
+      <line no="79">
+        <token name="T_INLINE_HTML"> &lt;span style="color: black"&gt;Este site &#xE9; melhor visualizado com pelo menos 1024x768 de resolu&#xE7;&#xE3;o (Recomendado 1280x800)&lt;/span&gt;&lt;br&gt;</token>
+      </line>
+      <line no="80">
+        <token name="T_INLINE_HTML"> &lt;span style="color: blue" id="Resulucao"&gt;&lt;Script LANGUAGE="JavaScript"&gt;MostraTamanho();&lt;/Script&gt;&lt;/span&gt;</token>
+      </line>
+      <line no="81">
+        <token name="T_INLINE_HTML">&lt;/small&gt;&lt;/center&gt;  </token>
+      </line>
+      <line no="82">
+        <token name="T_INLINE_HTML">    &lt;/body&gt;</token>
+      </line>
+      <line no="83">
+        <token name="T_INLINE_HTML">&lt;/html&gt;</token>
+      </line>
+      <line no="84"/>
+    </source>
+  </file>
+</phpunit>

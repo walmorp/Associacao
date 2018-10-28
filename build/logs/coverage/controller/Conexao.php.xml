@@ -1,0 +1,747 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="Conexao.php" path="/controller">
+    <totals>
+      <lines total="66" comments="4" code="62" executable="32" executed="29" percent="90.62"/>
+      <methods count="6" tested="3" percent="50.00"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="1" tested="0" percent="0.00"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <class name="Conexao" start="5" executable="32" executed="29" crap="13.14">
+      <package full="" name="" sub="" category=""/>
+      <namespace name=""/>
+      <method name="__construct" signature="__construct()" start="9" end="11" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="initialize" signature="initialize()" start="13" end="24" crap="2.01" executable="8" executed="7" coverage="87.5"/>
+      <method name="getConexao" signature="getConexao()" start="26" end="29" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="fecha" signature="fecha()" start="31" end="37" crap="2.06" executable="4" executed="3" coverage="75"/>
+      <method name="freeResult" signature="freeResult($r)" start="39" end="45" crap="2.06" executable="4" executed="3" coverage="75"/>
+      <method name="query" signature="query($sql)" start="47" end="64" crap="5" executable="13" executed="13" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="10">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="11">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="14">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="15">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="17">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="19">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="22">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="23">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="24">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="28">
+        <covered by="ConexaoTest::testConexao"/>
+        <covered by="ConexaoTest::testGetConexao"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="32">
+        <covered by="ConexaoTest::testFecha"/>
+      </line>
+      <line nr="33">
+        <covered by="ConexaoTest::testFecha"/>
+      </line>
+      <line nr="36">
+        <covered by="ConexaoTest::testFecha"/>
+      </line>
+      <line nr="40">
+        <covered by="ConexaoTest::testFreeResult"/>
+      </line>
+      <line nr="41">
+        <covered by="ConexaoTest::testFreeResult"/>
+      </line>
+      <line nr="44">
+        <covered by="ConexaoTest::testFreeResult"/>
+      </line>
+      <line nr="48">
+        <covered by="ConexaoTest::testQuery"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="49">
+        <covered by="ConexaoTest::testQuery"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+      <line nr="50">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="51">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="52">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="53">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="54">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="55">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="56">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="58">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="60">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="61">
+        <covered by="ConexaoTest::testQuery"/>
+      </line>
+      <line nr="63">
+        <covered by="ConexaoTest::testQuery"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+      </line>
+    </coverage>
+    <source>
+      <line no="1">
+        <token name="T_INLINE_HTML">&#xFEFF;</token>
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2">
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'defineVar.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="3">
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/FuncaoSistema.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4"/>
+      <line no="5">
+        <token name="T_CLASS">class</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Conexao</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EXTENDS">extends</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">FuncaoSistema</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="6"/>
+      <line no="7">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$conexao</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="8">
+        <token name="T_WHITESPACE"> </token>
+      </line>
+      <line no="9">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__construct</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="10">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">initialize</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="11">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="12"/>
+      <line no="13">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PRIVATE">private</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">initialize</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="14">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_VARIABLE">$UserBanco</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"SYSDBA"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="15">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_VARIABLE">$PwBanco</token>
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"masterkey"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="16">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COMMENT">//Print "&lt;br&gt;&lt;br&gt;Conectando ao banco de dados: $Banco - Usu&#xE1;rio: $UserBanco&lt;br&gt;"; </token>
+      </line>
+      <line no="17">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">conexao</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ibase_connect</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__BD_</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$UserBanco</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$PwBanco</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="18"/>
+      <line no="19">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_IF">If</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_EQUAL">&lt;&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="20">
+        <token name="T_WHITESPACE">      </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br&gt;Erro ao connectar banco de dados!!&lt;br&gt;"</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE"> </token>
+      </line>
+      <line no="21">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="22">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_STRING">ini_set</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"ibase.timestampformat"</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_COMMA">,</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"%m/%d/%Y %H:%M:%S"</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="23">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_STRING">ini_set</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"ibase.dateformat"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"%m/%d/%Y"</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="24">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_WHITESPACE">            </token>
+      </line>
+      <line no="25"/>
+      <line no="26">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">getConexao</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="27">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_COMMENT">//Print "&lt;br&gt;Conex&#xE3;o: $this-&gt;conexao"; </token>
+      </line>
+      <line no="28">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">conexao</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="29">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="30"/>
+      <line no="31">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">fecha</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="32">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_AT">@</token>
+        <token name="T_STRING">ibase_close</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">getConexao</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="33">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_IF">If</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_EQUAL">&lt;&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="34">
+        <token name="T_WHITESPACE">      </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"Erro no comando SQL - Close &lt;br&gt;&lt;br&gt;"</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE">  </token>
+      </line>
+      <line no="35">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="36">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="37">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="38"/>
+      <line no="39">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">freeResult</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$r</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="40">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_AT">@</token>
+        <token name="T_STRING">Ibase_free_result</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$r</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="41">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_IF">If</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_EQUAL">&lt;&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="42">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"Erro no comando SQL - Free_result &lt;br&gt;&lt;br&gt;"</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE">  </token>
+      </line>
+      <line no="43">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="44">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="45">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="46"/>
+      <line no="47">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">query</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="48">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_VARIABLE">$r</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_AT">@</token>
+        <token name="T_STRING">ibase_query</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">getConexao</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="49">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_IF">If</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_EQUAL">&lt;&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="50">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;center&gt;&lt;div&gt;&lt;h2 class=\"tituloCadastro\"&gt;"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="51">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_IF">If</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">count</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">explode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"PRIMARY"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_GT">&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_LNUMBER">1</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="52">
+        <token name="T_WHITESPACE">          </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">Duplicidade de c&#xF3;digo (chave prim&#xE1;ria) ou campo definido valor &#xFA;nico!&lt;br&gt;</token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">&lt;br&gt;</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="53">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ELSE">else</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IF">If</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">count</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">explode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"FOREIGN KEY"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_GT">&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_LNUMBER">1</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="54">
+        <token name="T_WHITESPACE">          </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">Registro n&#xE3;o pode ser exclu&#xED;do por haver depend&#xEA;ncias!&lt;br&gt;</token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">&lt;br&gt;</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="55">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ELSE">else</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IF">If</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">count</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">explode</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"DATA_NASCIMENTO_INVALIDA"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_GT">&gt;</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_LNUMBER">1</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="56">
+        <token name="T_WHITESPACE">          </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">Data de nascimento menor que a permitida!&lt;br&gt;</token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">&lt;br&gt;</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="57">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ELSE">else</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="58">
+        <token name="T_WHITESPACE">          </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">Erro ao executar a tarefa!&lt;br&gt;</token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_ENCAPSED_AND_WHITESPACE">&lt;br&gt;</token>
+        <token name="T_DOUBLE_QUOTES">"</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">ibase_errmsg</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE">  </token>
+      </line>
+      <line no="59">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="60">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/h2&gt;&lt;/div&gt;&lt;/center&gt;"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="61">
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="62">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="63">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$r</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="64">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="65"/>
+      <line no="66">
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="67"/>
+    </source>
+  </file>
+</phpunit>

@@ -1,0 +1,11 @@
+{
+    "name": "vendor/phpunit-poc",
+    "description": "Descrição do projeto Associacao.",
+    "authors": [
+        {
+            "name": "wbfsistemas",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {}
+}

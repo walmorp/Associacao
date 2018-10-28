@@ -1,0 +1,497 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="DaoHome.php" path="/controller">
+    <totals>
+      <lines total="67" comments="0" code="67" executable="18" executed="18" percent="100.00"/>
+      <methods count="5" tested="5" percent="100.00"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="1" tested="1" percent="100.00"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <class name="DaoHome" start="6" executable="18" executed="18" crap="5">
+      <package full="" name="" sub="" category=""/>
+      <namespace name=""/>
+      <method name="getClassView" signature="getClassView()" start="10" end="12" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="executaView" signature="executaView()" start="14" end="17" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="mostraParcelasEmAberto" signature="mostraParcelasEmAberto()" start="19" end="35" crap="1" executable="5" executed="5" coverage="100"/>
+      <method name="mostraAssociadosAtivos" signature="mostraAssociadosAtivos()" start="37" end="50" crap="1" executable="5" executed="5" coverage="100"/>
+      <method name="mostraTitulosAtivos" signature="mostraTitulosAtivos()" start="52" end="66" crap="1" executable="5" executed="5" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="11">
+        <covered by="DaoHomeTest::testGetClassView"/>
+      </line>
+      <line nr="15">
+        <covered by="DaoHomeTest::testExecutaView"/>
+      </line>
+      <line nr="16">
+        <covered by="DaoHomeTest::testExecutaView"/>
+      </line>
+      <line nr="21">
+        <covered by="DaoHomeTest::testMostraParcelasEmAberto"/>
+      </line>
+      <line nr="23">
+        <covered by="DaoHomeTest::testMostraParcelasEmAberto"/>
+      </line>
+      <line nr="32">
+        <covered by="DaoHomeTest::testMostraParcelasEmAberto"/>
+      </line>
+      <line nr="33">
+        <covered by="DaoHomeTest::testMostraParcelasEmAberto"/>
+      </line>
+      <line nr="34">
+        <covered by="DaoHomeTest::testMostraParcelasEmAberto"/>
+      </line>
+      <line nr="39">
+        <covered by="DaoHomeTest::testMostraAssociadosAtivos"/>
+      </line>
+      <line nr="41">
+        <covered by="DaoHomeTest::testMostraAssociadosAtivos"/>
+      </line>
+      <line nr="47">
+        <covered by="DaoHomeTest::testMostraAssociadosAtivos"/>
+      </line>
+      <line nr="48">
+        <covered by="DaoHomeTest::testMostraAssociadosAtivos"/>
+      </line>
+      <line nr="49">
+        <covered by="DaoHomeTest::testMostraAssociadosAtivos"/>
+      </line>
+      <line nr="54">
+        <covered by="DaoHomeTest::testMostraTitulosAtivos"/>
+      </line>
+      <line nr="56">
+        <covered by="DaoHomeTest::testMostraTitulosAtivos"/>
+      </line>
+      <line nr="62">
+        <covered by="DaoHomeTest::testMostraTitulosAtivos"/>
+      </line>
+      <line nr="63">
+        <covered by="DaoHomeTest::testMostraTitulosAtivos"/>
+      </line>
+      <line nr="64">
+        <covered by="DaoHomeTest::testMostraTitulosAtivos"/>
+      </line>
+    </coverage>
+    <source>
+      <line no="1">
+        <token name="T_INLINE_HTML">&#xFEFF;</token>
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2">
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'defineVar.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="3">
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/Conexao.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4">
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'model/View.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="5"/>
+      <line no="6">
+        <token name="T_CLASS">class</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">DaoHome</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EXTENDS">extends</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">Conexao</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IMPLEMENTS">implements</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">View</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="7"/>
+      <line no="8">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONST">const</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">CLASSE_VIEW</token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"Home"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="9"/>
+      <line no="10">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">getClassView</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="11">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">CLASSE_VIEW</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="12">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="13">
+        <token name="T_WHITESPACE"> </token>
+      </line>
+      <line no="14">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">executaView</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="15">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/'</token>
+        <token name="T_DOT">.</token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">getClassView</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="16">
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="17">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="18"/>
+      <line no="19">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">mostraParcelasEmAberto</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="20">
+        <token name="T_WHITESPACE">     </token>
+      </line>
+      <line no="21">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$MostrarMetaDados</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="22">
+        <token name="T_WHITESPACE">  </token>
+      </line>
+      <line no="23">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT CB.ID AS PARCELA, TC.DESCRICAO, CB.DATA_VENCIMENTO, CB.VALOR_NOMINAL, CB.VALOR_BAIXADO, S.SITUACAO,</token>
+      </line>
+      <line no="24">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                 CB.ID_ASSOCIADO ||'-'|| A.NOME||' ('||A.CPF||')' AS ASSOCIADO, T.NUMERO_TITULO, TT.TIPO</token>
+      </line>
+      <line no="25">
+        <token name="T_CONSTANT_ENCAPSED_STRING">          FROM COBRANCA CB  LEFT JOIN TITULO T ON CB.ID_TITULO = T.ID</token>
+      </line>
+      <line no="26">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                            LEFT JOIN TIPO_TITULO TT ON T.ID_TIPO_TITULO = TT.ID</token>
+      </line>
+      <line no="27">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                            LEFT JOIN ASSOCIADO A ON CB.ID_ASSOCIADO = A.ID</token>
+      </line>
+      <line no="28">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                            LEFT JOIN TIPO_COBRANCA TC ON CB.ID_TIPO_COBRANCA = TC.ID </token>
+      </line>
+      <line no="29">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                            LEFT JOIN SITUACAO_BAIXA S ON CB.ID_SITUACAO_BAIXA = S.ID</token>
+      </line>
+      <line no="30">
+        <token name="T_CONSTANT_ENCAPSED_STRING">         WHERE CB.ID_SITUACAO_BAIXA = 1</token>
+      </line>
+      <line no="31">
+        <token name="T_CONSTANT_ENCAPSED_STRING">         ORDER BY A.NOME, CB.DATA_VENCIMENTO, T.NUMERO_TITULO"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="32">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$Opera</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"B;I;"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="33">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">mostraTabelaBDConectado</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$Opera</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$MostrarMetaDados</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="34">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="35">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="36"/>
+      <line no="37">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">mostraAssociadosAtivos</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="38">
+        <token name="T_WHITESPACE">     </token>
+      </line>
+      <line no="39">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$MostrarMetaDados</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="40">
+        <token name="T_WHITESPACE">  </token>
+      </line>
+      <line no="41">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT A.ID AS CODIGO, A.NOME AS ASSOCIADO, G.NOME AS GENERO, A.CPF, C.NOME ||'/'||C.SIGLA_UF AS CIDADE, S.SITUACAO</token>
+      </line>
+      <line no="42">
+        <token name="T_CONSTANT_ENCAPSED_STRING">          FROM ASSOCIADO A LEFT JOIN GENERO G ON A.ID_GENERO = G.ID</token>
+      </line>
+      <line no="43">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                           LEFT JOIN CIDADE C ON A.ID_CIDADE = C.ID</token>
+      </line>
+      <line no="44">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                           LEFT JOIN SITUACAO_ASSOCIADO S ON A.ID_SITUACAO = S.ID</token>
+      </line>
+      <line no="45">
+        <token name="T_CONSTANT_ENCAPSED_STRING">         WHERE A.ID_SITUACAO = 1                   </token>
+      </line>
+      <line no="46">
+        <token name="T_CONSTANT_ENCAPSED_STRING">         ORDER BY 2"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="47">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$Opera</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"P;"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="48">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">mostraTabelaBDConectado</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$Opera</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$MostrarMetaDados</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="49">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="50">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="51"/>
+      <line no="52">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">mostraTitulosAtivos</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="53">
+        <token name="T_WHITESPACE">     </token>
+      </line>
+      <line no="54">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$MostrarMetaDados</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="55">
+        <token name="T_WHITESPACE">  </token>
+      </line>
+      <line no="56">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT T.ID AS CODIGO, T.NUMERO_TITULO, TT.TIPO, A.NOME||' ('||A.CPF||')' AS ASSOCIADO, T.DATA_SOCIO, S.SITUACAO</token>
+      </line>
+      <line no="57">
+        <token name="T_CONSTANT_ENCAPSED_STRING">          FROM TITULO T LEFT JOIN TIPO_TITULO TT ON T.ID_TIPO_TITULO = TT.ID</token>
+      </line>
+      <line no="58">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                        LEFT JOIN ASSOCIADO A ON T.ID_ASSOCIADO = A.ID</token>
+      </line>
+      <line no="59">
+        <token name="T_CONSTANT_ENCAPSED_STRING">                        LEFT JOIN SITUACAO_TITULO S ON T.ID_SITUACAO_TITULO = S.ID </token>
+      </line>
+      <line no="60">
+        <token name="T_CONSTANT_ENCAPSED_STRING">         WHERE T.ID_SITUACAO_TITULO = 1               </token>
+      </line>
+      <line no="61">
+        <token name="T_CONSTANT_ENCAPSED_STRING">         ORDER BY T.NUMERO_TITULO"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="62">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$Opera</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"P;"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="63">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">mostraTabelaBDConectado</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$sql</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$Opera</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$MostrarMetaDados</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="64">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">true</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="65"/>
+      <line no="66">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="67">
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="68">
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+    </source>
+  </file>
+</phpunit>

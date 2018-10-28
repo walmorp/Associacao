@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="CadastraParcelas.php" path="/view">
+    <totals>
+      <lines total="76" comments="0" code="76" executable="14" executed="0" percent="0.00"/>
+      <methods count="0" tested="0" percent="0"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="0" tested="0" percent="0"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <source>
+      <line no="1">
+        <token name="T_INLINE_HTML">&#xFEFF;</token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+      </line>
+      <line no="2">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'defineVar.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="3">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'controller/ValidaSessao.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$id</token>
+        <token name="T_WHITESPACE">       </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">getCampo</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"id"</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="5">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$Tabela</token>
+        <token name="T_WHITESPACE">   </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"COBRANCA"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="6">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">campoExiste</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"gravar"</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="7">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_VARIABLE">$Dados</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">gravar</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="8">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="9">
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="10">
+        <token name="T_INLINE_HTML">&lt;!DOCTYPE html&gt;</token>
+      </line>
+      <line no="11">
+        <token name="T_INLINE_HTML">&lt;html&gt;</token>
+      </line>
+      <line no="12">
+        <token name="T_INLINE_HTML">    &lt;head&gt;</token>
+      </line>
+      <line no="13">
+        <token name="T_INLINE_HTML">        </token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/DefineHeadMeta.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="14">
+        <token name="T_INLINE_HTML">        </token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/DefineEstilo.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="15">
+        <token name="T_INLINE_HTML">        &lt;title&gt;Cadastro de parcelas&lt;/title&gt;</token>
+      </line>
+      <line no="16">
+        <token name="T_INLINE_HTML">    &lt;/head&gt;</token>
+      </line>
+      <line no="17">
+        <token name="T_INLINE_HTML">&lt;body&gt;</token>
+      </line>
+      <line no="18">
+        <token name="T_INLINE_HTML">&lt;center&gt;&lt;div&gt;&lt;h1 class="tituloCadastro"&gt;Cadastro de parcelas&lt;/h1&gt;&lt;/div&gt;&lt;/center&gt;</token>
+      </line>
+      <line no="19"/>
+      <line no="20">
+        <token name="T_INLINE_HTML">&lt;form id="cadastro" name="cadastro" method="post" enctype="multipart/form-data" action="" onsubmit="return ValidaCamposCadastraParcelas(); return false;"&gt;</token>
+      </line>
+      <line no="21">
+        <token name="T_INLINE_HTML">  &lt;table class="tabelaCadastro"&gt;</token>
+      </line>
+      <line no="22">
+        <token name="T_INLINE_HTML">    &lt;tr&gt;</token>
+      </line>
+      <line no="23">
+        <token name="T_INLINE_HTML">        &lt;td class="tituloCadastro" colspan="4"&gt;T&#xED;tulos&lt;/td&gt;</token>
+      </line>
+      <line no="24">
+        <token name="T_INLINE_HTML">    &lt;/tr&gt;</token>
+      </line>
+      <line no="25">
+        <token name="T_INLINE_HTML">    &lt;tr&gt;</token>
+      </line>
+      <line no="26">
+        <token name="T_INLINE_HTML">      &lt;td class="labelCadastro"&gt;C&#xF3;digo inicial:&lt;/td&gt;</token>
+      </line>
+      <line no="27">
+        <token name="T_INLINE_HTML">      &lt;td class="campoCadastro"&gt;&lt;input class="campo" name="idTituloInicio" type="text" onblur="ValidaCampo(this);" id="idTituloInicio" size="10" maxlength="10" value="1" /&gt;</token>
+      </line>
+      <line no="28">
+        <token name="T_INLINE_HTML">        &lt;span class="campoObrigatorio"&gt;*&lt;/span&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="29">
+        <token name="T_INLINE_HTML">      &lt;td class="labelCadastro"&gt;C&#xF3;digo final:&lt;/td&gt;</token>
+      </line>
+      <line no="30">
+        <token name="T_INLINE_HTML">      &lt;td class="campoCadastro"&gt;&lt;input class="campo" name="idTituloFinal" type="text" onblur="ValidaCampo(this);" id="idTituloFinal" size="10" maxlength="10" value="999999" /&gt;</token>
+      </line>
+      <line no="31">
+        <token name="T_INLINE_HTML">        &lt;span class="campoObrigatorio"&gt;*&lt;/span&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="32">
+        <token name="T_INLINE_HTML">    &lt;tr&gt;</token>
+      </line>
+      <line no="33">
+        <token name="T_INLINE_HTML">        &lt;td class="tituloCadastro" colspan="4"&gt;T&#xED;tulos / Associados&lt;/td&gt;</token>
+      </line>
+      <line no="34">
+        <token name="T_INLINE_HTML">    &lt;/tr&gt;</token>
+      </line>
+      <line no="35">
+        <token name="T_INLINE_HTML">    &lt;tr&gt;</token>
+      </line>
+      <line no="36">
+        <token name="T_INLINE_HTML">      &lt;td class="labelCadastro"&gt;Selecione os t&#xED;tulos:&lt;/td&gt;</token>
+      </line>
+      <line no="37">
+        <token name="T_INLINE_HTML">      &lt;td class="campoCadastro" colspan="3"&gt;&lt;select class="campo" name="idTitulo" id="idTitulo" onblur="ValidaCampo(this);"&gt;</token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">popularAssociadoCadParcelas</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+        <token name="T_INLINE_HTML">&lt;/select&gt;</token>
+      </line>
+      <line no="38">
+        <token name="T_INLINE_HTML">        &lt;span class="campoObrigatorio"&gt;*&lt;/span&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="39">
+        <token name="T_INLINE_HTML">    &lt;/tr&gt;</token>
+      </line>
+      <line no="40">
+        <token name="T_INLINE_HTML">    &lt;tr&gt;</token>
+      </line>
+      <line no="41">
+        <token name="T_INLINE_HTML">        &lt;td class="tituloCadastro" colspan="4"&gt;Parcela&lt;/td&gt;</token>
+      </line>
+      <line no="42">
+        <token name="T_INLINE_HTML">    &lt;/tr&gt;</token>
+      </line>
+      <line no="43">
+        <token name="T_INLINE_HTML">    &lt;tr&gt;</token>
+      </line>
+      <line no="44">
+        <token name="T_INLINE_HTML">      &lt;td class="labelCadastro"&gt;Tipo de cobran&#xE7;a:&lt;/td&gt;</token>
+      </line>
+      <line no="45">
+        <token name="T_INLINE_HTML">      &lt;td class="campoCadastro" colspan="3"&gt;&lt;select class="campo" name="idTipoCobranca" id="idTipoCobranca" onblur="ValidaCampo(this);"&gt;</token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">popularTipoCobranca</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">opcaoSelecione</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+        <token name="T_INLINE_HTML">&lt;/select&gt;</token>
+      </line>
+      <line no="46">
+        <token name="T_INLINE_HTML">        &lt;span class="campoObrigatorio"&gt;*&lt;/span&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="47">
+        <token name="T_INLINE_HTML">    &lt;/tr&gt;</token>
+      </line>
+      <line no="48">
+        <token name="T_INLINE_HTML">    &lt;tr&gt;</token>
+      </line>
+      <line no="49">
+        <token name="T_INLINE_HTML">      &lt;td class="labelCadastro"&gt;Data do vencimento:&lt;/td&gt;</token>
+      </line>
+      <line no="50">
+        <token name="T_INLINE_HTML">      &lt;td class="campoCadastro"&gt;&lt;input class="campo" name="dataVencimento" type="text" onblur="FormataData(this);" id="dataVencimento" size="10" maxlength="10" value="" /&gt;</token>
+      </line>
+      <line no="51">
+        <token name="T_INLINE_HTML">        &lt;span class="campoObrigatorio"&gt;*&lt;/span&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="52">
+        <token name="T_INLINE_HTML">      &lt;td class="labelCadastro"&gt;Valor nominal:&lt;/td&gt;</token>
+      </line>
+      <line no="53">
+        <token name="T_INLINE_HTML">      &lt;td class="campoCadastro"&gt;&lt;input class="campo" name="valorNominal" type="text" onblur="FormataDecimal(this);" id="valorNominal" size="14" maxlength="14" value="" /&gt;</token>
+      </line>
+      <line no="54">
+        <token name="T_INLINE_HTML">        &lt;span class="campoObrigatorio"&gt;*&lt;/span&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="55">
+        <token name="T_INLINE_HTML">    &lt;/tr&gt;</token>
+      </line>
+      <line no="56">
+        <token name="T_INLINE_HTML">    &lt;tr&gt;&lt;td colspan="4"&gt;</token>
+      </line>
+      <line no="57">
+        <token name="T_INLINE_HTML">     &lt;span class="campoObrigatorio labelCampoObrigatorio"&gt;&lt;b&gt;* Campos obrigat&#xF3;rios&lt;/b&gt;&lt;br&gt;&lt;/span&gt;</token>
+      </line>
+      <line no="58">
+        <token name="T_INLINE_HTML">     &lt;input class="botaoGravar"    type="Submit" id="gravar"    name="gravar"    value="Gravar"&gt;</token>
+      </line>
+      <line no="59">
+        <token name="T_INLINE_HTML">     &lt;input class="botaoReiniciar" type="button" id="reiniciar" name="reiniciar" value="Reiniciar"     onclick="JavaScript:ResetCadastro(document.cadastro);"&gt;</token>
+      </line>
+      <line no="60">
+        <token name="T_INLINE_HTML">     &lt;input class="botaoLimpar"    type="button" id="limpar"    name="limpar"    value="Limpar"        onclick="JavaScript:LimparForm(document.cadastro);"&gt;</token>
+      </line>
+      <line no="61">
+        <token name="T_INLINE_HTML">&lt;!-- &lt;input class="botaoNovo"      type="button" id="novo"      name="novo"      value="Novo cadastro" onclick="JavaScript:NovoCadastro(document.cadastro, 'gravar');"&gt; --&gt;</token>
+      </line>
+      <line no="62">
+        <token name="T_INLINE_HTML">    &lt;/td&gt;&lt;/tr&gt;</token>
+      </line>
+      <line no="63">
+        <token name="T_INLINE_HTML">  &lt;/table&gt;</token>
+      </line>
+      <line no="64">
+        <token name="T_INLINE_HTML">&lt;/form&gt;</token>
+      </line>
+      <line no="65">
+        <token name="T_OPEN_TAG">&lt;?php </token>
+      </line>
+      <line no="66">
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">getCampo</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"opera"</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_IS_NOT_EQUAL">!=</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"C"</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="67">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;Script LANGUAGE='javascript'&gt;setDisabed('gravar', false);&lt;/Script&gt;"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="68">
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ELSE">else</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+        <token name="T_WHITESPACE"> </token>
+      </line>
+      <line no="69">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PRINT">Print</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;Script LANGUAGE='javascript'&gt;setDisabed('gravar', true);&lt;/Script&gt;"</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="70">
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="71">
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">getParcelaProcessadas</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="72">
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_INCLUDE">include</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/MensagemGravando.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="73"/>
+      <line no="74">
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="75">
+        <token name="T_INLINE_HTML">&lt;/body&gt;</token>
+      </line>
+      <line no="76">
+        <token name="T_INLINE_HTML">&lt;/html&gt;</token>
+      </line>
+      <line no="77"/>
+    </source>
+  </file>
+</phpunit>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="DefineHeadMeta.php" path="/view">
+    <totals>
+      <lines total="5" comments="0" code="5" executable="1" executed="0" percent="0.00"/>
+      <methods count="0" tested="0" percent="0"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="0" tested="0" percent="0"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <source>
+      <line no="1">
+        <token name="T_INLINE_HTML">&#xFEFF;&lt;meta http-equiv="Cache-Control" content="no-cache, no-store"&gt;</token>
+      </line>
+      <line no="2">
+        <token name="T_INLINE_HTML">        &lt;meta http-equiv="Pragma" content="no-cache, no-store"&gt;</token>
+      </line>
+      <line no="3">
+        <token name="T_INLINE_HTML">        &lt;meta http-equiv="expires" content="Mon, 06 Jan 1990 00:00:01 GMT"&gt;</token>
+      </line>
+      <line no="4">
+        <token name="T_INLINE_HTML">        &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;</token>
+      </line>
+      <line no="5"/>
+      <line no="6">
+        <token name="T_INLINE_HTML">  </token>
+      </line>
+    </source>
+  </file>
+</phpunit>

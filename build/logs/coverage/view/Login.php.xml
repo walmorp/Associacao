@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="Login.php" path="/view">
+    <totals>
+      <lines total="40" comments="0" code="40" executable="35" executed="0" percent="0.00"/>
+      <methods count="0" tested="0" percent="0"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="0" tested="0" percent="0"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <source>
+      <line no="1">
+        <token name="T_INLINE_HTML">&#xFEFF;</token>
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_AT">@</token>
+        <token name="T_STRING">session_start</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="3">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_AT">@</token>
+        <token name="T_STRING">session_destroy</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="4">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'defineVar.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="5">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"Mostra_Msg_Ret.php"</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="6">
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="7">
+        <token name="T_INLINE_HTML">&lt;!DOCTYPE html&gt;</token>
+      </line>
+      <line no="8">
+        <token name="T_INLINE_HTML">&lt;html&gt;</token>
+      </line>
+      <line no="9">
+        <token name="T_INLINE_HTML">    &lt;head&gt;</token>
+      </line>
+      <line no="10">
+        <token name="T_INLINE_HTML">        </token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/DefineHeadMeta.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="11">
+        <token name="T_INLINE_HTML">        </token>
+        <token name="T_OPEN_TAG">&lt;?php </token>
+        <token name="T_REQUIRE_ONCE">require_once</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">__APP_</token>
+        <token name="T_DOT">.</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">'view/DefineEstilo.php'</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_CLOSE_TAG">?&gt;</token>
+      </line>
+      <line no="12">
+        <token name="T_INLINE_HTML">        &lt;title&gt;Associa&#xE7;&#xE3;o recreativa&lt;/title&gt;</token>
+      </line>
+      <line no="13">
+        <token name="T_INLINE_HTML">    &lt;/head&gt;</token>
+      </line>
+      <line no="14">
+        <token name="T_INLINE_HTML"> &lt;body&gt;</token>
+      </line>
+      <line no="15">
+        <token name="T_INLINE_HTML">        </token>
+      </line>
+      <line no="16">
+        <token name="T_INLINE_HTML"> &lt;table width="100%" height='900px' valign='center' align='center' border='0'&gt;</token>
+      </line>
+      <line no="17">
+        <token name="T_INLINE_HTML">  &lt;tr&gt;</token>
+      </line>
+      <line no="18">
+        <token name="T_INLINE_HTML">   &lt;td valign='center' align='center'&gt;</token>
+      </line>
+      <line no="19">
+        <token name="T_INLINE_HTML">     &lt;form id="login" name="login" method="post" enctype="multipart/form-data" action="" onsubmit="return ValidaCampos(); return false;"&gt;</token>
+      </line>
+      <line no="20">
+        <token name="T_INLINE_HTML">        &lt;table width="300px" height='200px' valign='center' align='center' border='1'&gt;</token>
+      </line>
+      <line no="21">
+        <token name="T_INLINE_HTML">          &lt;tr class='bordaTopo' height='50px'&gt;</token>
+      </line>
+      <line no="22">
+        <token name="T_INLINE_HTML">            &lt;td valign='center' align='center'&gt;&lt;center&gt;&lt;div&gt;&lt;h1 class='tituloAplicativo'&gt;Associa&#xE7;&#xE3;o Recreativa&lt;/h1&gt;&lt;/div&gt;&lt;/center&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="23">
+        <token name="T_INLINE_HTML">          &lt;/tr&gt;</token>
+      </line>
+      <line no="24">
+        <token name="T_INLINE_HTML">          &lt;tr class='bordaTopo' height='150px'&gt;</token>
+      </line>
+      <line no="25">
+        <token name="T_INLINE_HTML">            &lt;td valign='center' align='center'&gt;&lt;br&gt;</token>
+      </line>
+      <line no="26">
+        <token name="T_INLINE_HTML">              ID:  &lt;input name="id"    type="text"   class="campo" onblur="ValidaCampo(this);" id="id" size="9" maxlength="9" value="" /&gt;&lt;br&gt;&lt;br&gt;</token>
+      </line>
+      <line no="27">
+        <token name="T_INLINE_HTML">              CPF: &lt;input name="cpf"   type="text"   class="campo" onblur="FormataCPF(this);" id="cpf" size="14" maxlength="14" value="" /&gt;&lt;br&gt;&lt;br&gt;</token>
+      </line>
+      <line no="28">
+        <token name="T_INLINE_HTML">                   &lt;input name='class' type='hidden' value='LoginAPP'&gt;</token>
+      </line>
+      <line no="29">
+        <token name="T_INLINE_HTML">            &lt;/td&gt;</token>
+      </line>
+      <line no="30">
+        <token name="T_INLINE_HTML">          &lt;/tr&gt;</token>
+      </line>
+      <line no="31">
+        <token name="T_INLINE_HTML">          &lt;tr class='bordaTopo' height='50px'&gt;</token>
+      </line>
+      <line no="32">
+        <token name="T_INLINE_HTML">            &lt;td valign='center' align='center'&gt;&lt;input class="botaoLogin" type="Submit" value="&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp Entrar &gt;&gt; &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp" name="Login"&gt;&lt;/td&gt;</token>
+      </line>
+      <line no="33">
+        <token name="T_INLINE_HTML">          &lt;/tr&gt;</token>
+      </line>
+      <line no="34">
+        <token name="T_INLINE_HTML">        &lt;/table&gt;</token>
+      </line>
+      <line no="35">
+        <token name="T_INLINE_HTML">      &lt;/form&gt;</token>
+      </line>
+      <line no="36">
+        <token name="T_INLINE_HTML">   &lt;/td&gt;</token>
+      </line>
+      <line no="37">
+        <token name="T_INLINE_HTML">  &lt;/tr&gt;</token>
+      </line>
+      <line no="38">
+        <token name="T_INLINE_HTML"> &lt;/table&gt;</token>
+      </line>
+      <line no="39">
+        <token name="T_INLINE_HTML"> &lt;/body&gt;</token>
+      </line>
+      <line no="40">
+        <token name="T_INLINE_HTML">&lt;/html&gt;</token>
+      </line>
+      <line no="41"/>
+    </source>
+  </file>
+</phpunit>
