@@ -2,13 +2,13 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="FuncaoSistema.php" path="/controller">
     <totals>
-      <lines total="528" comments="18" code="510" executable="331" executed="309" percent="93.35"/>
-      <methods count="28" tested="13" percent="46.43"/>
+      <lines total="533" comments="18" code="515" executable="335" executed="312" percent="93.13"/>
+      <methods count="28" tested="14" percent="50.00"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="FuncaoSistema" start="3" executable="331" executed="309" crap="118.88">
+    <class name="FuncaoSistema" start="3" executable="335" executed="312" crap="121.43">
       <package full="" name="" sub="" category=""/>
       <namespace name=""/>
       <method name="opcaoSelecione" signature="opcaoSelecione()" start="8" end="10" crap="1" executable="1" executed="1" coverage="100"/>
@@ -22,23 +22,23 @@
       <method name="converteDataHoraParaIB" signature="converteDataHoraParaIB($Data)" start="99" end="116" crap="7" executable="11" executed="11" coverage="100"/>
       <method name="iniciaDados" signature="iniciaDados($obj)" start="118" end="129" crap="3.02" executable="8" executed="7" coverage="87.5"/>
       <method name="alterarDados" signature="alterarDados($obj, $id)" start="131" end="134" crap="1" executable="2" executed="2" coverage="100"/>
-      <method name="apagarDados" signature="apagarDados($obj, $id)" start="136" end="144" crap="2.03" executable="5" executed="4" coverage="80"/>
-      <method name="consultarDados" signature="consultarDados($obj, $id)" start="146" end="157" crap="2.02" executable="6" executed="5" coverage="83.333333333333"/>
-      <method name="montaDados" signature="montaDados($r)" start="159" end="169" crap="3.04" executable="6" executed="5" coverage="83.333333333333"/>
-      <method name="mostraCampoID" signature="mostraCampoID($id)" start="171" end="173" crap="1" executable="1" executed="1" coverage="100"/>
-      <method name="retornaProximoID" signature="retornaProximoID($obj)" start="175" end="184" crap="2" executable="7" executed="7" coverage="100"/>
-      <method name="mostraTabelaBDConectado" signature="mostraTabelaBDConectado($obj, $sql, $Opera, $MostrarMetaDados = false)" start="186" end="326" crap="30.25" executable="107" executed="100" coverage="93.457943925234"/>
-      <method name="mostraAviso" signature="mostraAviso($Tempo = 1, $TempoFim = 1800)" start="328" end="357" crap="4.03" executable="16" executed="14" coverage="87.5"/>
-      <method name="popularAssociadoCadParcelas" signature="popularAssociadoCadParcelas($obj)" start="359" end="377" crap="2" executable="9" executed="9" coverage="100"/>
-      <method name="popularAssociado" signature="popularAssociado($obj, $valorSelec, $situacao=&quot;&quot;)" start="379" end="396" crap="4.01" executable="13" executed="12" coverage="92.307692307692"/>
-      <method name="popularTipoCobranca" signature="popularTipoCobranca($obj, $valorSelec)" start="398" end="412" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
-      <method name="popularSituacaoBaixa" signature="popularSituacaoBaixa($obj, $valorSelec)" start="414" end="428" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
-      <method name="popularTitulo" signature="popularTitulo($obj, $valorSelec, $situacao=&quot;&quot;)" start="430" end="447" crap="4.01" executable="13" executed="12" coverage="92.307692307692"/>
-      <method name="popularTipoTitulo" signature="popularTipoTitulo($obj, $valorSelec)" start="449" end="463" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
-      <method name="popularSituacaoTitulo" signature="popularSituacaoTitulo($obj, $valorSelec)" start="465" end="479" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
-      <method name="popularGenero" signature="popularGenero($obj, $valorSelec)" start="481" end="495" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
-      <method name="popularCidade" signature="popularCidade($obj, $valorSelec)" start="497" end="511" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
-      <method name="popularSituacaoAssociado" signature="popularSituacaoAssociado($obj, $valorSelec)" start="513" end="527" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
+      <method name="apagarDados" signature="apagarDados($obj, $id)" start="136" end="144" crap="2" executable="5" executed="5" coverage="100"/>
+      <method name="consultarDados" signature="consultarDados($obj, $id)" start="146" end="161" crap="3.02" executable="8" executed="7" coverage="87.5"/>
+      <method name="montaDados" signature="montaDados($r)" start="163" end="174" crap="4.25" executable="8" executed="6" coverage="75"/>
+      <method name="mostraCampoID" signature="mostraCampoID($id)" start="176" end="178" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="retornaProximoID" signature="retornaProximoID($obj)" start="180" end="189" crap="2" executable="7" executed="7" coverage="100"/>
+      <method name="mostraTabelaBDConectado" signature="mostraTabelaBDConectado($obj, $sql, $Opera, $MostrarMetaDados = false)" start="191" end="331" crap="30.38" executable="107" executed="99" coverage="92.523364485981"/>
+      <method name="mostraAviso" signature="mostraAviso($Tempo = 1, $TempoFim = 1800)" start="333" end="362" crap="4.03" executable="16" executed="14" coverage="87.5"/>
+      <method name="popularAssociadoCadParcelas" signature="popularAssociadoCadParcelas($obj)" start="364" end="382" crap="2" executable="9" executed="9" coverage="100"/>
+      <method name="popularAssociado" signature="popularAssociado($obj, $valorSelec, $situacao=&quot;&quot;)" start="384" end="401" crap="4.01" executable="13" executed="12" coverage="92.307692307692"/>
+      <method name="popularTipoCobranca" signature="popularTipoCobranca($obj, $valorSelec)" start="403" end="417" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
+      <method name="popularSituacaoBaixa" signature="popularSituacaoBaixa($obj, $valorSelec)" start="419" end="433" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
+      <method name="popularTitulo" signature="popularTitulo($obj, $valorSelec, $situacao=&quot;&quot;)" start="435" end="452" crap="4.01" executable="13" executed="12" coverage="92.307692307692"/>
+      <method name="popularTipoTitulo" signature="popularTipoTitulo($obj, $valorSelec)" start="454" end="468" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
+      <method name="popularSituacaoTitulo" signature="popularSituacaoTitulo($obj, $valorSelec)" start="470" end="484" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
+      <method name="popularGenero" signature="popularGenero($obj, $valorSelec)" start="486" end="500" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
+      <method name="popularCidade" signature="popularCidade($obj, $valorSelec)" start="502" end="516" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
+      <method name="popularSituacaoAssociado" signature="popularSituacaoAssociado($obj, $valorSelec)" start="518" end="532" crap="3.01" executable="11" executed="10" coverage="90.909090909091"/>
     </class>
     <coverage>
       <line nr="9">
@@ -260,6 +260,9 @@
       <line nr="139">
         <covered by="FuncaoSistemaTest::testApagarDados"/>
       </line>
+      <line nr="140">
+        <covered by="FuncaoSistemaTest::testApagarDados"/>
+      </line>
       <line nr="142">
         <covered by="FuncaoSistemaTest::testApagarDados"/>
       </line>
@@ -275,44 +278,37 @@
       <line nr="152">
         <covered by="FuncaoSistemaTest::testConsultarDados"/>
       </line>
+      <line nr="154">
+        <covered by="FuncaoSistemaTest::testConsultarDados"/>
+      </line>
       <line nr="155">
         <covered by="FuncaoSistemaTest::testConsultarDados"/>
       </line>
-      <line nr="160">
+      <line nr="158">
+        <covered by="FuncaoSistemaTest::testConsultarDados"/>
+      </line>
+      <line nr="164">
         <covered by="FuncaoSistemaTest::testMontaDados"/>
       </line>
-      <line nr="161">
+      <line nr="167">
         <covered by="FuncaoSistemaTest::testMontaDados"/>
       </line>
-      <line nr="162">
+      <line nr="168">
         <covered by="FuncaoSistemaTest::testMontaDados"/>
       </line>
-      <line nr="163">
+      <line nr="169">
         <covered by="FuncaoSistemaTest::testMontaDados"/>
       </line>
-      <line nr="165">
+      <line nr="170">
         <covered by="FuncaoSistemaTest::testMontaDados"/>
       </line>
       <line nr="172">
-        <covered by="FuncaoSistemaTest::testMostraCampoID"/>
-      </line>
-      <line nr="176">
-        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
-        <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
+        <covered by="FuncaoSistemaTest::testMontaDados"/>
       </line>
       <line nr="177">
-        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
-        <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
+        <covered by="FuncaoSistemaTest::testMostraCampoID"/>
       </line>
-      <line nr="178">
-        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
-        <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
-      </line>
-      <line nr="179">
-        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
-        <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
-      </line>
-      <line nr="180">
+      <line nr="181">
         <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
         <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
       </line>
@@ -324,17 +320,21 @@
         <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
         <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
       </line>
+      <line nr="184">
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+        <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
+      </line>
+      <line nr="185">
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+        <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
+      </line>
       <line nr="187">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+        <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
       </line>
       <line nr="188">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="189">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="190">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+        <covered by="DaoCadastraParcelasTest::testGravarVarios"/>
+        <covered by="FuncaoSistemaTest::testRetornaProximoID"/>
       </line>
       <line nr="192">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
@@ -342,10 +342,13 @@
       <line nr="193">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
+      <line nr="194">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
       <line nr="195">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="196">
+      <line nr="197">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="198">
@@ -357,22 +360,19 @@
       <line nr="201">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="202">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="203">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="204">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
       <line nr="205">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="206">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="207">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="208">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="209">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="210">
@@ -384,7 +384,7 @@
       <line nr="213">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="216">
+      <line nr="215">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="217">
@@ -400,12 +400,6 @@
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="223">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="224">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="225">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="226">
@@ -426,7 +420,13 @@
       <line nr="231">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
+      <line nr="232">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
       <line nr="233">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="234">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="235">
@@ -435,16 +435,13 @@
       <line nr="236">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="237">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
       <line nr="238">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="239">
+      <line nr="240">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="240">
+      <line nr="241">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="242">
@@ -459,16 +456,19 @@
       <line nr="245">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="246">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
       <line nr="247">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="248">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
+      <line nr="249">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
       <line nr="250">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="251">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="252">
@@ -477,13 +477,7 @@
       <line nr="253">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="254">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
       <line nr="255">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="256">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="257">
@@ -492,19 +486,19 @@
       <line nr="258">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="265">
+      <line nr="259">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="266">
+      <line nr="260">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="267">
+      <line nr="261">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="268">
+      <line nr="262">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="269">
+      <line nr="263">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="270">
@@ -516,16 +510,19 @@
       <line nr="272">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
+      <line nr="273">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
       <line nr="274">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="275">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="277">
+      <line nr="276">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="278">
+      <line nr="277">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="279">
@@ -534,25 +531,22 @@
       <line nr="280">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="281">
+      <line nr="282">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="282">
+      <line nr="283">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="284">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="285">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="286">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="287">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="288">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="289">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="290">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="291">
@@ -567,25 +561,31 @@
       <line nr="294">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
+      <line nr="295">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
       <line nr="296">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="297">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="298">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
+      <line nr="299">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
       <line nr="301">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="302">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="304">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="305">
+      <line nr="303">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="306">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="307">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="309">
@@ -597,67 +597,70 @@
       <line nr="311">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="312">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
-      <line nr="313">
-        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
-      </line>
       <line nr="314">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="315">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="316">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
+      <line nr="317">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
       <line nr="318">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="320">
+      <line nr="319">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="321">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="322">
+      <line nr="323">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
       <line nr="325">
         <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="333">
-        <covered by="FuncaoSistemaTest::testMostraAviso"/>
+      <line nr="326">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="334">
-        <covered by="FuncaoSistemaTest::testMostraAviso"/>
+      <line nr="327">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
       </line>
-      <line nr="337">
+      <line nr="330">
+        <covered by="FuncaoSistemaTest::testMostraTabelaBDConectado"/>
+      </line>
+      <line nr="338">
         <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
       <line nr="339">
         <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
-      <line nr="340">
-        <covered by="FuncaoSistemaTest::testMostraAviso"/>
-      </line>
-      <line nr="341">
-        <covered by="FuncaoSistemaTest::testMostraAviso"/>
-      </line>
       <line nr="342">
-        <covered by="FuncaoSistemaTest::testMostraAviso"/>
-      </line>
-      <line nr="343">
         <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
       <line nr="344">
         <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
+      <line nr="345">
+        <covered by="FuncaoSistemaTest::testMostraAviso"/>
+      </line>
+      <line nr="346">
+        <covered by="FuncaoSistemaTest::testMostraAviso"/>
+      </line>
       <line nr="347">
+        <covered by="FuncaoSistemaTest::testMostraAviso"/>
+      </line>
+      <line nr="348">
         <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
       <line nr="349">
         <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
-      <line nr="351">
+      <line nr="352">
         <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
       <line nr="354">
@@ -666,44 +669,38 @@
       <line nr="356">
         <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
-      <line nr="360">
-        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
+      <line nr="359">
+        <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
       <line nr="361">
-        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
+        <covered by="FuncaoSistemaTest::testMostraAviso"/>
       </line>
       <line nr="365">
+        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
+      </line>
+      <line nr="366">
         <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
       </line>
       <line nr="370">
         <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
       </line>
-      <line nr="371">
-        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
-      </line>
-      <line nr="372">
-        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
-      </line>
-      <line nr="373">
-        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
-      </line>
-      <line nr="374">
+      <line nr="375">
         <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
       </line>
       <line nr="376">
         <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
       </line>
-      <line nr="380">
-        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
+      <line nr="377">
+        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
+      </line>
+      <line nr="378">
+        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
+      </line>
+      <line nr="379">
+        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
       </line>
       <line nr="381">
-        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
-      </line>
-      <line nr="382">
-        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
-      </line>
-      <line nr="384">
-        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
+        <covered by="FuncaoSistemaTest::testPopularAssociadoCadParcelas"/>
       </line>
       <line nr="385">
         <covered by="FuncaoSistemaTest::testPopularAssociado"/>
@@ -714,35 +711,32 @@
       <line nr="387">
         <covered by="FuncaoSistemaTest::testPopularAssociado"/>
       </line>
-      <line nr="388">
-        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
-      </line>
       <line nr="389">
         <covered by="FuncaoSistemaTest::testPopularAssociado"/>
       </line>
       <line nr="390">
         <covered by="FuncaoSistemaTest::testPopularAssociado"/>
       </line>
+      <line nr="391">
+        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
+      </line>
+      <line nr="392">
+        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
+      </line>
       <line nr="393">
+        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
+      </line>
+      <line nr="394">
         <covered by="FuncaoSistemaTest::testPopularAssociado"/>
       </line>
       <line nr="395">
         <covered by="FuncaoSistemaTest::testPopularAssociado"/>
       </line>
-      <line nr="399">
-        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
+      <line nr="398">
+        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
       </line>
       <line nr="400">
-        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
-      </line>
-      <line nr="401">
-        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
-      </line>
-      <line nr="402">
-        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
-      </line>
-      <line nr="403">
-        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
+        <covered by="FuncaoSistemaTest::testPopularAssociado"/>
       </line>
       <line nr="404">
         <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
@@ -753,26 +747,26 @@
       <line nr="406">
         <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
       </line>
+      <line nr="407">
+        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
+      </line>
+      <line nr="408">
+        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
+      </line>
       <line nr="409">
+        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
+      </line>
+      <line nr="410">
         <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
       </line>
       <line nr="411">
         <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
       </line>
-      <line nr="415">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
+      <line nr="414">
+        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
       </line>
       <line nr="416">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
-      </line>
-      <line nr="417">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
-      </line>
-      <line nr="418">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
-      </line>
-      <line nr="419">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
+        <covered by="FuncaoSistemaTest::testPopularTipoCobranca"/>
       </line>
       <line nr="420">
         <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
@@ -783,23 +777,26 @@
       <line nr="422">
         <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
       </line>
+      <line nr="423">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
+      </line>
+      <line nr="424">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
+      </line>
       <line nr="425">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
+      </line>
+      <line nr="426">
         <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
       </line>
       <line nr="427">
         <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
       </line>
-      <line nr="431">
-        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
+      <line nr="430">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
       </line>
       <line nr="432">
-        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
-      </line>
-      <line nr="433">
-        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
-      </line>
-      <line nr="435">
-        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
+        <covered by="FuncaoSistemaTest::testPopularSituacaoBaixa"/>
       </line>
       <line nr="436">
         <covered by="FuncaoSistemaTest::testPopularTitulo"/>
@@ -810,35 +807,32 @@
       <line nr="438">
         <covered by="FuncaoSistemaTest::testPopularTitulo"/>
       </line>
-      <line nr="439">
-        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
-      </line>
       <line nr="440">
         <covered by="FuncaoSistemaTest::testPopularTitulo"/>
       </line>
       <line nr="441">
         <covered by="FuncaoSistemaTest::testPopularTitulo"/>
       </line>
+      <line nr="442">
+        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
+      </line>
+      <line nr="443">
+        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
+      </line>
       <line nr="444">
+        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
+      </line>
+      <line nr="445">
         <covered by="FuncaoSistemaTest::testPopularTitulo"/>
       </line>
       <line nr="446">
         <covered by="FuncaoSistemaTest::testPopularTitulo"/>
       </line>
-      <line nr="450">
-        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
+      <line nr="449">
+        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
       </line>
       <line nr="451">
-        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
-      </line>
-      <line nr="452">
-        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
-      </line>
-      <line nr="453">
-        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
-      </line>
-      <line nr="454">
-        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
+        <covered by="FuncaoSistemaTest::testPopularTitulo"/>
       </line>
       <line nr="455">
         <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
@@ -849,26 +843,26 @@
       <line nr="457">
         <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
       </line>
+      <line nr="458">
+        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
+      </line>
+      <line nr="459">
+        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
+      </line>
       <line nr="460">
+        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
+      </line>
+      <line nr="461">
         <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
       </line>
       <line nr="462">
         <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
       </line>
-      <line nr="466">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
+      <line nr="465">
+        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
       </line>
       <line nr="467">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
-      </line>
-      <line nr="468">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
-      </line>
-      <line nr="469">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
-      </line>
-      <line nr="470">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
+        <covered by="FuncaoSistemaTest::testPopularTipoTitulo"/>
       </line>
       <line nr="471">
         <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
@@ -879,26 +873,26 @@
       <line nr="473">
         <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
       </line>
+      <line nr="474">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
+      </line>
+      <line nr="475">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
+      </line>
       <line nr="476">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
+      </line>
+      <line nr="477">
         <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
       </line>
       <line nr="478">
         <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
       </line>
-      <line nr="482">
-        <covered by="FuncaoSistemaTest::testPopularGenero"/>
+      <line nr="481">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
       </line>
       <line nr="483">
-        <covered by="FuncaoSistemaTest::testPopularGenero"/>
-      </line>
-      <line nr="484">
-        <covered by="FuncaoSistemaTest::testPopularGenero"/>
-      </line>
-      <line nr="485">
-        <covered by="FuncaoSistemaTest::testPopularGenero"/>
-      </line>
-      <line nr="486">
-        <covered by="FuncaoSistemaTest::testPopularGenero"/>
+        <covered by="FuncaoSistemaTest::testPopularSituacaoTitulo"/>
       </line>
       <line nr="487">
         <covered by="FuncaoSistemaTest::testPopularGenero"/>
@@ -909,26 +903,26 @@
       <line nr="489">
         <covered by="FuncaoSistemaTest::testPopularGenero"/>
       </line>
+      <line nr="490">
+        <covered by="FuncaoSistemaTest::testPopularGenero"/>
+      </line>
+      <line nr="491">
+        <covered by="FuncaoSistemaTest::testPopularGenero"/>
+      </line>
       <line nr="492">
+        <covered by="FuncaoSistemaTest::testPopularGenero"/>
+      </line>
+      <line nr="493">
         <covered by="FuncaoSistemaTest::testPopularGenero"/>
       </line>
       <line nr="494">
         <covered by="FuncaoSistemaTest::testPopularGenero"/>
       </line>
-      <line nr="498">
-        <covered by="FuncaoSistemaTest::testPopularCidade"/>
+      <line nr="497">
+        <covered by="FuncaoSistemaTest::testPopularGenero"/>
       </line>
       <line nr="499">
-        <covered by="FuncaoSistemaTest::testPopularCidade"/>
-      </line>
-      <line nr="500">
-        <covered by="FuncaoSistemaTest::testPopularCidade"/>
-      </line>
-      <line nr="501">
-        <covered by="FuncaoSistemaTest::testPopularCidade"/>
-      </line>
-      <line nr="502">
-        <covered by="FuncaoSistemaTest::testPopularCidade"/>
+        <covered by="FuncaoSistemaTest::testPopularGenero"/>
       </line>
       <line nr="503">
         <covered by="FuncaoSistemaTest::testPopularCidade"/>
@@ -939,26 +933,26 @@
       <line nr="505">
         <covered by="FuncaoSistemaTest::testPopularCidade"/>
       </line>
+      <line nr="506">
+        <covered by="FuncaoSistemaTest::testPopularCidade"/>
+      </line>
+      <line nr="507">
+        <covered by="FuncaoSistemaTest::testPopularCidade"/>
+      </line>
       <line nr="508">
+        <covered by="FuncaoSistemaTest::testPopularCidade"/>
+      </line>
+      <line nr="509">
         <covered by="FuncaoSistemaTest::testPopularCidade"/>
       </line>
       <line nr="510">
         <covered by="FuncaoSistemaTest::testPopularCidade"/>
       </line>
-      <line nr="514">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
+      <line nr="513">
+        <covered by="FuncaoSistemaTest::testPopularCidade"/>
       </line>
       <line nr="515">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
-      </line>
-      <line nr="516">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
-      </line>
-      <line nr="517">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
-      </line>
-      <line nr="518">
-        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
+        <covered by="FuncaoSistemaTest::testPopularCidade"/>
       </line>
       <line nr="519">
         <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
@@ -969,10 +963,25 @@
       <line nr="521">
         <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
       </line>
+      <line nr="522">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
+      </line>
+      <line nr="523">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
+      </line>
       <line nr="524">
         <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
       </line>
+      <line nr="525">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
+      </line>
       <line nr="526">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
+      </line>
+      <line nr="529">
+        <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
+      </line>
+      <line nr="531">
         <covered by="FuncaoSistemaTest::testPopularSituacaoAssociado"/>
       </line>
     </coverage>
@@ -2529,6 +2538,38 @@
       </line>
       <line no="151">
         <token name="T_WHITESPACE">  </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_EXCLAMATION_MARK">!</token>
+        <token name="T_VARIABLE">$r</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="152">
+        <token name="T_WHITESPACE">      </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">self</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">IniciaDados</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_VARIABLE">$obj</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+        <token name="T_WHITESPACE"> </token>
+      </line>
+      <line no="153">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_ELSE">else</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="154">
+        <token name="T_WHITESPACE">      </token>
         <token name="T_VARIABLE">$Dados</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_EQUAL">=</token>
@@ -2541,8 +2582,8 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="152">
-        <token name="T_WHITESPACE">  </token>
+      <line no="155">
+        <token name="T_WHITESPACE">      </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_BRACKET">(</token>
@@ -2552,8 +2593,8 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="153">
-        <token name="T_WHITESPACE">     </token>
+      <line no="156">
+        <token name="T_WHITESPACE">         </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">self</token>
@@ -2565,31 +2606,35 @@
         <token name="T_SEMICOLON">;</token>
         <token name="T_WHITESPACE"> </token>
       </line>
-      <line no="154">
-        <token name="T_WHITESPACE">  </token>
+      <line no="157">
+        <token name="T_WHITESPACE">      </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_ELSE">else</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="155">
-        <token name="T_WHITESPACE">     </token>
+      <line no="158">
+        <token name="T_WHITESPACE">         </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$Dados</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="156">
+      <line no="159">
+        <token name="T_WHITESPACE">      </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="160">
         <token name="T_WHITESPACE">  </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="157">
+      <line no="161">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="158"/>
-      <line no="159">
+      <line no="162"/>
+      <line no="163">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -2602,7 +2647,29 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="160">
+      <line no="164">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_IF">if</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_EXCLAMATION_MARK">!</token>
+        <token name="T_VARIABLE">$r</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="165">
+        <token name="T_WHITESPACE">     </token>
+        <token name="T_RETURN">return</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">false</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="166">
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_CLOSE_CURLY">}</token>
+      </line>
+      <line no="167">
         <token name="T_WHITESPACE">  </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -2619,7 +2686,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="161">
+      <line no="168">
         <token name="T_WHITESPACE">    </token>
         <token name="T_VARIABLE">$Dados</token>
         <token name="T_WHITESPACE"> </token>
@@ -2630,7 +2697,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="162">
+      <line no="169">
         <token name="T_WHITESPACE">    </token>
         <token name="T_FOREACH">foreach</token>
         <token name="T_OPEN_BRACKET">(</token>
@@ -2647,7 +2714,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="163">
+      <line no="170">
         <token name="T_WHITESPACE">      </token>
         <token name="T_VARIABLE">$Dados</token>
         <token name="T_OPEN_SQUARE">[</token>
@@ -2659,42 +2726,27 @@
         <token name="T_VARIABLE">$value</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="164">
+      <line no="171">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="165">
+      <line no="172">
         <token name="T_WHITESPACE">    </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$Dados</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="166">
-        <token name="T_WHITESPACE">  </token>
-        <token name="T_CLOSE_CURLY">}</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_ELSE">else</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_OPEN_CURLY">{</token>
-      </line>
-      <line no="167">
-        <token name="T_WHITESPACE">    </token>
-        <token name="T_RETURN">return</token>
-        <token name="T_WHITESPACE"> </token>
-        <token name="T_STRING">false</token>
-        <token name="T_SEMICOLON">;</token>
-      </line>
-      <line no="168">
+      <line no="173">
         <token name="T_WHITESPACE">  </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="169">
+      <line no="174">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="170"/>
-      <line no="171">
+      <line no="175"/>
+      <line no="176">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -2706,7 +2758,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="172">
+      <line no="177">
         <token name="T_WHITESPACE">    </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
@@ -2719,12 +2771,12 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="173">
+      <line no="178">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="174"/>
-      <line no="175">
+      <line no="179"/>
+      <line no="180">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -2737,7 +2789,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="176">
+      <line no="181">
         <token name="T_WHITESPACE">    </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -2746,7 +2798,7 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="177">
+      <line no="182">
         <token name="T_WHITESPACE">    </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -2761,7 +2813,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="178">
+      <line no="183">
         <token name="T_WHITESPACE">    </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -2775,7 +2827,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="179">
+      <line no="184">
         <token name="T_WHITESPACE">    </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -2792,7 +2844,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="180">
+      <line no="185">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -2803,31 +2855,31 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="181">
+      <line no="186">
         <token name="T_WHITESPACE">    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="182">
+      <line no="187">
         <token name="T_WHITESPACE">    </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_INC">++</token>
         <token name="T_SEMICOLON">;</token>
         <token name="T_WHITESPACE"> </token>
       </line>
-      <line no="183">
+      <line no="188">
         <token name="T_WHITESPACE">    </token>
         <token name="T_RETURN">Return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="184">
+      <line no="189">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
       </line>
-      <line no="185"/>
-      <line no="186">
+      <line no="190"/>
+      <line no="191">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -2853,7 +2905,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="187">
+      <line no="192">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$class</token>
         <token name="T_EQUAL">=</token>
@@ -2868,7 +2920,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&amp;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="188">
+      <line no="193">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$opSituacao</token>
         <token name="T_WHITESPACE"> </token>
@@ -2877,7 +2929,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="189">
+      <line no="194">
         <token name="T_WHITESPACE">     </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -2892,7 +2944,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="190">
+      <line no="195">
         <token name="T_WHITESPACE">         </token>
         <token name="T_VARIABLE">$opSituacao</token>
         <token name="T_WHITESPACE"> </token>
@@ -2913,12 +2965,12 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&amp;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="191">
+      <line no="196">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
       </line>
-      <line no="192">
+      <line no="197">
         <token name="T_WHITESPACE">     </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -2933,7 +2985,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="193">
+      <line no="198">
         <token name="T_WHITESPACE">         </token>
         <token name="T_VARIABLE">$opSituacao</token>
         <token name="T_WHITESPACE"> </token>
@@ -2954,11 +3006,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&amp;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="194">
+      <line no="199">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="195">
+      <line no="200">
         <token name="T_WHITESPACE">     </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -2973,7 +3025,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="196">
+      <line no="201">
         <token name="T_WHITESPACE">         </token>
         <token name="T_VARIABLE">$OperaRParc</token>
         <token name="T_WHITESPACE"> </token>
@@ -2982,7 +3034,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"I;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="197">
+      <line no="202">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -2990,7 +3042,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="198">
+      <line no="203">
         <token name="T_WHITESPACE">         </token>
         <token name="T_VARIABLE">$OperaRParc</token>
         <token name="T_WHITESPACE"> </token>
@@ -2999,11 +3051,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"B;I;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="199">
+      <line no="204">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="200">
+      <line no="205">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$Alterar</token>
         <token name="T_WHITESPACE">   </token>
@@ -3025,7 +3077,7 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="201">
+      <line no="206">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$Consultar</token>
         <token name="T_WHITESPACE"> </token>
@@ -3047,7 +3099,7 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="202">
+      <line no="207">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$Deletar</token>
         <token name="T_WHITESPACE">   </token>
@@ -3069,7 +3121,7 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="203">
+      <line no="208">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$Baixar</token>
         <token name="T_WHITESPACE">    </token>
@@ -3091,7 +3143,7 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="204">
+      <line no="209">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$Imprimir</token>
         <token name="T_WHITESPACE">  </token>
@@ -3113,7 +3165,7 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="205">
+      <line no="210">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$RPAssoc</token>
         <token name="T_WHITESPACE">   </token>
@@ -3135,10 +3187,10 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="206">
+      <line no="211">
         <token name="T_WHITESPACE">     </token>
       </line>
-      <line no="207">
+      <line no="212">
         <token name="T_WHITESPACE">     </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -3152,7 +3204,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="208">
+      <line no="213">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$MostraOpera</token>
         <token name="T_WHITESPACE"> </token>
@@ -3161,7 +3213,7 @@
         <token name="T_STRING">false</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="209">
+      <line no="214">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -3169,7 +3221,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="210">
+      <line no="215">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$MostraOpera</token>
         <token name="T_WHITESPACE"> </token>
@@ -3178,11 +3230,11 @@
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="211">
+      <line no="216">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="212">
+      <line no="217">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -3196,7 +3248,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="213">
+      <line no="218">
         <token name="T_WHITESPACE">     </token>
         <token name="T_IF">If</token>
         <token name="T_WHITESPACE"> </token>
@@ -3209,14 +3261,14 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="214">
+      <line no="219">
         <token name="T_WHITESPACE">          </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;H3&gt;Query executada com erro!&lt;/H3&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="215">
+      <line no="220">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -3224,7 +3276,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="216">
+      <line no="221">
         <token name="T_WHITESPACE">         </token>
         <token name="T_VARIABLE">$tabelaOpera</token>
         <token name="T_WHITESPACE">  </token>
@@ -3233,7 +3285,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="217">
+      <line no="222">
         <token name="T_WHITESPACE">         </token>
         <token name="T_VARIABLE">$campoIDOpera</token>
         <token name="T_WHITESPACE"> </token>
@@ -3242,7 +3294,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="218">
+      <line no="223">
         <token name="T_WHITESPACE">         </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -3267,14 +3319,14 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="219">
+      <line no="224">
         <token name="T_WHITESPACE">            </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;H2&gt;Query executada com sucesso!&lt;/H2&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="220">
+      <line no="225">
         <token name="T_WHITESPACE">          </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -3282,7 +3334,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="221">
+      <line no="226">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$Tipo</token>
         <token name="T_WHITESPACE"> </token>
@@ -3294,7 +3346,7 @@
         <token name="T_SEMICOLON">;</token>
         <token name="T_WHITESPACE"> </token>
       </line>
-      <line no="222">
+      <line no="227">
         <token name="T_WHITESPACE">            </token>
         <token name="T_IF">If</token>
         <token name="T_WHITESPACE"> </token>
@@ -3306,73 +3358,73 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="223">
+      <line no="228">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;br&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="224">
+      <line no="229">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;Table class=\"tabela\" width=\"98%\" cellpadding=\"3\" cellspacing=\"0\"&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="225">
+      <line no="230">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;tr&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="226">
+      <line no="231">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;th class=\"tabelath\"&gt;Tabela&lt;/th&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="227">
+      <line no="232">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;th class=\"tabelath\"&gt;Nome&lt;/th&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="228">
+      <line no="233">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;th class=\"tabelath\"&gt;Alias&lt;/th&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="229">
+      <line no="234">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;th class=\"tabelath\"&gt;Tamanho&lt;/th&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="230">
+      <line no="235">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;th class=\"tabelath\"&gt;Tipo&lt;/th&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="231">
+      <line no="236">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/tr&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="232">
+      <line no="237">
         <token name="T_WHITESPACE">         </token>
       </line>
-      <line no="233">
+      <line no="238">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$Coln</token>
         <token name="T_WHITESPACE"> </token>
@@ -3384,8 +3436,8 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="234"/>
-      <line no="235">
+      <line no="239"/>
+      <line no="240">
         <token name="T_WHITESPACE">                </token>
         <token name="T_FOR">for</token>
         <token name="T_WHITESPACE"> </token>
@@ -3412,7 +3464,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="236">
+      <line no="241">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$col_info</token>
         <token name="T_WHITESPACE"> </token>
@@ -3427,7 +3479,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="237">
+      <line no="242">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$Tipo</token>
         <token name="T_OPEN_SQUARE">[</token>
@@ -3442,7 +3494,7 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="238">
+      <line no="243">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -3456,7 +3508,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="239">
+      <line no="244">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_VARIABLE">$tabelaOpera</token>
         <token name="T_WHITESPACE">  </token>
@@ -3468,7 +3520,7 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="240">
+      <line no="245">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_VARIABLE">$campoIDOpera</token>
         <token name="T_WHITESPACE"> </token>
@@ -3480,18 +3532,18 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="241">
+      <line no="246">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="242">
+      <line no="247">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;tr&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="243">
+      <line no="248">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -3505,7 +3557,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/td&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="244">
+      <line no="249">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -3519,7 +3571,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/td&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="245">
+      <line no="250">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -3533,7 +3585,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/td&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="246">
+      <line no="251">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -3547,7 +3599,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/td&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="247">
+      <line no="252">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -3561,25 +3613,25 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/td&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="248">
+      <line no="253">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/tr&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="249">
+      <line no="254">
         <token name="T_WHITESPACE">                </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="250">
+      <line no="255">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/Table&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="251">
+      <line no="256">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -3587,7 +3639,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="252">
+      <line no="257">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$Coln</token>
         <token name="T_WHITESPACE"> </token>
@@ -3599,7 +3651,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="253">
+      <line no="258">
         <token name="T_WHITESPACE">                </token>
         <token name="T_FOR">for</token>
         <token name="T_WHITESPACE"> </token>
@@ -3626,7 +3678,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="254">
+      <line no="259">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$col_info</token>
         <token name="T_WHITESPACE"> </token>
@@ -3641,7 +3693,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="255">
+      <line no="260">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$Tipo</token>
         <token name="T_OPEN_SQUARE">[</token>
@@ -3656,7 +3708,7 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="256">
+      <line no="261">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -3670,7 +3722,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="257">
+      <line no="262">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_VARIABLE">$tabelaOpera</token>
         <token name="T_WHITESPACE">  </token>
@@ -3682,7 +3734,7 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="258">
+      <line no="263">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_VARIABLE">$campoIDOpera</token>
         <token name="T_WHITESPACE"> </token>
@@ -3694,31 +3746,31 @@
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="259">
+      <line no="264">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="260">
+      <line no="265">
         <token name="T_WHITESPACE">                </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="261">
+      <line no="266">
         <token name="T_WHITESPACE">                </token>
         <token name="T_COMMENT">//$col_info = ibase_field_info($r, 0);</token>
       </line>
-      <line no="262">
+      <line no="267">
         <token name="T_WHITESPACE">                </token>
         <token name="T_COMMENT">//$tabelaOpera  = $col_info['relation'];</token>
       </line>
-      <line no="263">
+      <line no="268">
         <token name="T_WHITESPACE">                </token>
         <token name="T_COMMENT">//$campoIDOpera = $col_info['name'];</token>
       </line>
-      <line no="264">
+      <line no="269">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="265">
+      <line no="270">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$idAreaImpressao</token>
         <token name="T_WHITESPACE"> </token>
@@ -3730,7 +3782,7 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="266">
+      <line no="271">
         <token name="T_WHITESPACE">            </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -3743,21 +3795,21 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="267">
+      <line no="272">
         <token name="T_WHITESPACE">            </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;Table class=\"tabela\" width=\"100%\" border=\"1\" cellpadding=\"3\" cellspacing=\"0\"&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="268">
+      <line no="273">
         <token name="T_WHITESPACE">            </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;tr&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="269">
+      <line no="274">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$Coln</token>
         <token name="T_WHITESPACE"> </token>
@@ -3769,7 +3821,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="270">
+      <line no="275">
         <token name="T_WHITESPACE">            </token>
         <token name="T_FOR">for</token>
         <token name="T_WHITESPACE"> </token>
@@ -3796,7 +3848,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="271">
+      <line no="276">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$col_info</token>
         <token name="T_WHITESPACE"> </token>
@@ -3811,7 +3863,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="272">
+      <line no="277">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -3825,11 +3877,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/th&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="273">
+      <line no="278">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="274">
+      <line no="279">
         <token name="T_WHITESPACE">            </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -3839,25 +3891,25 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="275">
+      <line no="280">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;th class=\"tabelath\" border=\"1\"&gt;OPERA&#xC7;&#xC3;O&lt;/th&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="276">
+      <line no="281">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="277">
+      <line no="282">
         <token name="T_WHITESPACE">            </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/tr&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="278">
+      <line no="283">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$ContLinha</token>
         <token name="T_WHITESPACE"> </token>
@@ -3866,7 +3918,7 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="279">
+      <line no="284">
         <token name="T_WHITESPACE">            </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -3886,13 +3938,13 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="280">
+      <line no="285">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$ContLinha</token>
         <token name="T_INC">++</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="281">
+      <line no="286">
         <token name="T_WHITESPACE">                </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -3910,7 +3962,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="282">
+      <line no="287">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$tabelatd</token>
         <token name="T_WHITESPACE"> </token>
@@ -3919,7 +3971,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"tabelatd1"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="283">
+      <line no="288">
         <token name="T_WHITESPACE">                </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -3927,7 +3979,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="284">
+      <line no="289">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$tabelatd</token>
         <token name="T_WHITESPACE"> </token>
@@ -3936,39 +3988,39 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"tabelatd2"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="285">
+      <line no="290">
         <token name="T_WHITESPACE">                </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="286">
+      <line no="291">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"\t&lt;tr&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="287">
+      <line no="292">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_EQUAL">=</token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"*"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="288">
+      <line no="293">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$associado</token>
         <token name="T_EQUAL">=</token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"*"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="289">
+      <line no="294">
         <token name="T_WHITESPACE">                </token>
         <token name="T_VARIABLE">$c</token>
         <token name="T_EQUAL">=</token>
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="290">
+      <line no="295">
         <token name="T_WHITESPACE">                </token>
         <token name="T_FOREACH">foreach</token>
         <token name="T_WHITESPACE"> </token>
@@ -3982,7 +4034,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="291">
+      <line no="296">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -3999,7 +4051,7 @@
         <token name="T_SEMICOLON">;</token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="292">
+      <line no="297">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4022,7 +4074,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="293">
+      <line no="298">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$Valor</token>
         <token name="T_WHITESPACE"> </token>
@@ -4031,7 +4083,7 @@
         <token name="T_VARIABLE">$col_value</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="294">
+      <line no="299">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4048,7 +4100,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="295">
+      <line no="300">
         <token name="T_WHITESPACE">                        </token>
         <token name="T_VARIABLE">$Valor</token>
         <token name="T_WHITESPACE"> </token>
@@ -4062,7 +4114,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="296">
+      <line no="301">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -4083,7 +4135,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="297">
+      <line no="302">
         <token name="T_WHITESPACE">                        </token>
         <token name="T_VARIABLE">$Valor</token>
         <token name="T_WHITESPACE"> </token>
@@ -4097,7 +4149,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="298">
+      <line no="303">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -4118,7 +4170,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="299">
+      <line no="304">
         <token name="T_WHITESPACE">                        </token>
         <token name="T_VARIABLE">$Valor</token>
         <token name="T_WHITESPACE"> </token>
@@ -4132,17 +4184,17 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="300">
+      <line no="305">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="301">
+      <line no="306">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$c</token>
         <token name="T_INC">++</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="302">
+      <line no="307">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -4155,11 +4207,11 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="303">
+      <line no="308">
         <token name="T_WHITESPACE">                </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="304">
+      <line no="309">
         <token name="T_WHITESPACE">                </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4169,7 +4221,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="305">
+      <line no="310">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_VARIABLE">$linksOpera</token>
         <token name="T_WHITESPACE"> </token>
@@ -4178,7 +4230,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="306">
+      <line no="311">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4190,7 +4242,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="307">
+      <line no="312">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_VARIABLE">$linksOpera</token>
         <token name="T_WHITESPACE"> </token>
@@ -4199,7 +4251,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&amp;nbsp;"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="308">
+      <line no="313">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -4207,7 +4259,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="309">
+      <line no="314">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4238,7 +4290,7 @@
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
       </line>
-      <line no="310">
+      <line no="315">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4268,7 +4320,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="311">
+      <line no="316">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4299,7 +4351,7 @@
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
       </line>
-      <line no="312">
+      <line no="317">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4326,7 +4378,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="313">
+      <line no="318">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4353,7 +4405,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="314">
+      <line no="319">
         <token name="T_WHITESPACE">                       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4384,11 +4436,11 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="315">
+      <line no="320">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="316">
+      <line no="321">
         <token name="T_WHITESPACE">                    </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -4401,29 +4453,29 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="317">
+      <line no="322">
         <token name="T_WHITESPACE">                </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="318">
+      <line no="323">
         <token name="T_WHITESPACE">                </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"\t&lt;/tr&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="319">
+      <line no="324">
         <token name="T_WHITESPACE">            </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="320">
+      <line no="325">
         <token name="T_WHITESPACE">            </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/Table&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="321">
+      <line no="326">
         <token name="T_WHITESPACE">            </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
@@ -4434,34 +4486,34 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="322">
+      <line no="327">
         <token name="T_WHITESPACE">            </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/div&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="323">
+      <line no="328">
         <token name="T_WHITESPACE">           </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="324">
+      <line no="329">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="325">
+      <line no="330">
         <token name="T_WHITESPACE">       </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="326">
+      <line no="331">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="327"/>
-      <line no="328">
+      <line no="332"/>
+      <line no="333">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -4485,10 +4537,10 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="329">
+      <line no="334">
         <token name="T_WHITESPACE">  </token>
       </line>
-      <line no="330">
+      <line no="335">
         <token name="T_WHITESPACE">  </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -4497,29 +4549,29 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_ENCAPSED_AND_WHITESPACE">SELECT A.NOME||' - '||A.CPF AS ASSOCIADO, COUNT(CB.DATA_VENCIMENTO) AS QUANTIDADE</token>
       </line>
-      <line no="331">
+      <line no="336">
         <token name="T_ENCAPSED_AND_WHITESPACE">          FROM COBRANCA CB LEFT JOIN ASSOCIADO A ON CB.ID_ASSOCIADO = A.ID</token>
       </line>
-      <line no="332">
+      <line no="337">
         <token name="T_ENCAPSED_AND_WHITESPACE">         WHERE CB.ID_SITUACAO_BAIXA = 1 </token>
       </line>
-      <line no="333">
+      <line no="338">
         <token name="T_ENCAPSED_AND_WHITESPACE">           AND CB.DATA_VENCIMENTO &lt;= CURRENT_DATE - </token>
         <token name="T_VARIABLE">$Tempo</token>
       </line>
-      <line no="334">
+      <line no="339">
         <token name="T_ENCAPSED_AND_WHITESPACE">           AND CB.DATA_VENCIMENTO &gt; CURRENT_DATE - </token>
         <token name="T_VARIABLE">$TempoFim</token>
       </line>
-      <line no="335">
+      <line no="340">
         <token name="T_ENCAPSED_AND_WHITESPACE">         GROUP BY 1</token>
       </line>
-      <line no="336">
+      <line no="341">
         <token name="T_ENCAPSED_AND_WHITESPACE">         ORDER BY 1</token>
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="337">
+      <line no="342">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -4533,8 +4585,8 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="338"/>
-      <line no="339">
+      <line no="343"/>
+      <line no="344">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$ContLinha</token>
         <token name="T_WHITESPACE"> </token>
@@ -4543,7 +4595,7 @@
         <token name="T_LNUMBER">0</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="340">
+      <line no="345">
         <token name="T_WHITESPACE">     </token>
         <token name="T_VARIABLE">$Aviso</token>
         <token name="T_WHITESPACE"> </token>
@@ -4556,7 +4608,7 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="341">
+      <line no="346">
         <token name="T_WHITESPACE">     </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -4575,13 +4627,13 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="342">
+      <line no="347">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$ContLinha</token>
         <token name="T_INC">++</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="343">
+      <line no="348">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$Quantidade</token>
         <token name="T_WHITESPACE"> </token>
@@ -4590,7 +4642,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" - Possui "</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="344">
+      <line no="349">
         <token name="T_WHITESPACE">        </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4609,7 +4661,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="345">
+      <line no="350">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$Quantidade</token>
         <token name="T_WHITESPACE"> </token>
@@ -4618,7 +4670,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"1 pendencia"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="346">
+      <line no="351">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -4626,7 +4678,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="347">
+      <line no="352">
         <token name="T_WHITESPACE">            </token>
         <token name="T_VARIABLE">$Quantidade</token>
         <token name="T_WHITESPACE"> </token>
@@ -4641,11 +4693,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" pendencias"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="348">
+      <line no="353">
         <token name="T_WHITESPACE">        </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="349">
+      <line no="354">
         <token name="T_WHITESPACE">        </token>
         <token name="T_VARIABLE">$Aviso</token>
         <token name="T_WHITESPACE"> </token>
@@ -4668,11 +4720,11 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="350">
+      <line no="355">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="351">
+      <line no="356">
         <token name="T_WHITESPACE">     </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4686,14 +4738,14 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="352">
+      <line no="357">
         <token name="T_WHITESPACE">         </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="353">
+      <line no="358">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
         <token name="T_WHITESPACE"> </token>
@@ -4701,30 +4753,30 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="354">
+      <line no="359">
         <token name="T_WHITESPACE">         </token>
         <token name="T_PRINT">Print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_VARIABLE">$Aviso</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="355">
+      <line no="360">
         <token name="T_WHITESPACE">     </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="356">
+      <line no="361">
         <token name="T_WHITESPACE">     </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="357">
+      <line no="362">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="358"/>
-      <line no="359">
+      <line no="363"/>
+      <line no="364">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -4737,7 +4789,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="360">
+      <line no="365">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -4752,25 +4804,25 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="361">
+      <line no="366">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"  &lt;option value='Ativos'&gt;Todos os associados com t&#xED;tulo ativo&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="362">
+      <line no="367">
         <token name="T_WHITESPACE">   </token>
         <token name="T_COMMENT">//print "  &lt;option value='NaoAtivos'&gt;Todos os associados com t&#xED;tulo n&#xE3;o ativo&lt;/option&gt;\n";</token>
       </line>
-      <line no="363">
+      <line no="368">
         <token name="T_WHITESPACE">   </token>
         <token name="T_COMMENT">//print "  &lt;option value='Todos'&gt;Todos&lt;/option&gt;\n";</token>
       </line>
-      <line no="364">
+      <line no="369">
         <token name="T_WHITESPACE">   </token>
       </line>
-      <line no="365">
+      <line no="370">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -4778,20 +4830,20 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT T.ID, T.NUMERO_TITULO || ' ('||S.SITUACAO ||') - '|| A.NOME||' ('||A.CPF||')' AS TITULO</token>
       </line>
-      <line no="366">
+      <line no="371">
         <token name="T_CONSTANT_ENCAPSED_STRING">             FROM TITULO T LEFT JOIN TIPO_TITULO TT ON T.ID_TIPO_TITULO = TT.ID</token>
       </line>
-      <line no="367">
+      <line no="372">
         <token name="T_CONSTANT_ENCAPSED_STRING">                        LEFT JOIN ASSOCIADO A ON T.ID_ASSOCIADO = A.ID</token>
       </line>
-      <line no="368">
+      <line no="373">
         <token name="T_CONSTANT_ENCAPSED_STRING">                        LEFT JOIN SITUACAO_TITULO S ON T.ID_SITUACAO_TITULO = S.ID </token>
       </line>
-      <line no="369">
+      <line no="374">
         <token name="T_CONSTANT_ENCAPSED_STRING">            WHERE T.ID &gt; 0 AND T.ID_SITUACAO_TITULO = 1 ORDER BY A.NOME, T.ID"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="370">
+      <line no="375">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -4805,7 +4857,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="371">
+      <line no="376">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -4822,7 +4874,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="372">
+      <line no="377">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -4833,7 +4885,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="373">
+      <line no="378">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -4844,7 +4896,7 @@
         <token name="T_STRING">TITULO</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="374">
+      <line no="379">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -4857,23 +4909,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="375">
+      <line no="380">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="376">
+      <line no="381">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="377">
+      <line no="382">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="378"/>
-      <line no="379">
+      <line no="383"/>
+      <line no="384">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -4894,7 +4946,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="380">
+      <line no="385">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -4909,7 +4961,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="381">
+      <line no="386">
         <token name="T_WHITESPACE">   </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -4921,18 +4973,18 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="382">
+      <line no="387">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$situacao</token>
         <token name="T_EQUAL">=</token>
         <token name="T_CONSTANT_ENCAPSED_STRING">" AND ID_SITUACAO = 1 "</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="383">
+      <line no="388">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="384">
+      <line no="389">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -4945,7 +4997,7 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="385">
+      <line no="390">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -4959,7 +5011,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="386">
+      <line no="391">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -4976,7 +5028,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="387">
+      <line no="392">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -4987,7 +5039,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="388">
+      <line no="393">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -4998,7 +5050,7 @@
         <token name="T_STRING">NOME</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="389">
+      <line no="394">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5007,7 +5059,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="390">
+      <line no="395">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -5021,7 +5073,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="391">
+      <line no="396">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5030,11 +5082,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="392">
+      <line no="397">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="393">
+      <line no="398">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5049,23 +5101,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="394">
+      <line no="399">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="395">
+      <line no="400">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="396">
+      <line no="401">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="397"/>
-      <line no="398">
+      <line no="402"/>
+      <line no="403">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -5081,7 +5133,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="399">
+      <line no="404">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5096,7 +5148,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="400">
+      <line no="405">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -5105,7 +5157,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT ID, DESCRICAO FROM TIPO_COBRANCA WHERE ID &gt; 0 ORDER BY 2"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="401">
+      <line no="406">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -5119,7 +5171,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="402">
+      <line no="407">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -5136,7 +5188,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="403">
+      <line no="408">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -5147,7 +5199,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="404">
+      <line no="409">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -5158,7 +5210,7 @@
         <token name="T_STRING">DESCRICAO</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="405">
+      <line no="410">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5167,7 +5219,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="406">
+      <line no="411">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -5181,7 +5233,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="407">
+      <line no="412">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5190,11 +5242,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="408">
+      <line no="413">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="409">
+      <line no="414">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5209,23 +5261,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="410">
+      <line no="415">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="411">
+      <line no="416">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="412">
+      <line no="417">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="413"/>
-      <line no="414">
+      <line no="418"/>
+      <line no="419">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -5241,7 +5293,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="415">
+      <line no="420">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5256,7 +5308,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="416">
+      <line no="421">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -5265,7 +5317,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT ID, SITUACAO FROM SITUACAO_BAIXA WHERE ID &gt; 0 ORDER BY 2"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="417">
+      <line no="422">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -5279,7 +5331,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="418">
+      <line no="423">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -5296,7 +5348,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="419">
+      <line no="424">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -5307,7 +5359,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="420">
+      <line no="425">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -5318,7 +5370,7 @@
         <token name="T_STRING">SITUACAO</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="421">
+      <line no="426">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5327,7 +5379,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="422">
+      <line no="427">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -5341,7 +5393,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="423">
+      <line no="428">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5350,11 +5402,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="424">
+      <line no="429">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="425">
+      <line no="430">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5369,23 +5421,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="426">
+      <line no="431">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="427">
+      <line no="432">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="428">
+      <line no="433">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="429"/>
-      <line no="430">
+      <line no="434"/>
+      <line no="435">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -5406,7 +5458,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="431">
+      <line no="436">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5421,7 +5473,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="432">
+      <line no="437">
         <token name="T_WHITESPACE">   </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -5433,18 +5485,18 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="433">
+      <line no="438">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$situacao</token>
         <token name="T_EQUAL">=</token>
         <token name="T_CONSTANT_ENCAPSED_STRING">" AND ID_SITUACAO_TITULO = 1 "</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="434">
+      <line no="439">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="435">
+      <line no="440">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -5457,7 +5509,7 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="436">
+      <line no="441">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -5471,7 +5523,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="437">
+      <line no="442">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -5488,7 +5540,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="438">
+      <line no="443">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -5499,7 +5551,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="439">
+      <line no="444">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -5510,7 +5562,7 @@
         <token name="T_STRING">NUMERO_TITULO</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="440">
+      <line no="445">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5519,7 +5571,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="441">
+      <line no="446">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -5533,7 +5585,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="442">
+      <line no="447">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5542,11 +5594,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="443">
+      <line no="448">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="444">
+      <line no="449">
         <token name="T_WHITESPACE">     </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5561,23 +5613,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="445">
+      <line no="450">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="446">
+      <line no="451">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="447">
+      <line no="452">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="448"/>
-      <line no="449">
+      <line no="453"/>
+      <line no="454">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -5593,7 +5645,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="450">
+      <line no="455">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5608,7 +5660,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="451">
+      <line no="456">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -5617,7 +5669,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT ID, TIPO FROM TIPO_TITULO WHERE ID &gt; 0 ORDER BY 2"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="452">
+      <line no="457">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -5631,7 +5683,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="453">
+      <line no="458">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -5648,7 +5700,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="454">
+      <line no="459">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -5659,7 +5711,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="455">
+      <line no="460">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -5670,7 +5722,7 @@
         <token name="T_STRING">TIPO</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="456">
+      <line no="461">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5679,7 +5731,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="457">
+      <line no="462">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -5693,7 +5745,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="458">
+      <line no="463">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5702,11 +5754,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="459">
+      <line no="464">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="460">
+      <line no="465">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5721,23 +5773,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="461">
+      <line no="466">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="462">
+      <line no="467">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="463">
+      <line no="468">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="464"/>
-      <line no="465">
+      <line no="469"/>
+      <line no="470">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -5753,7 +5805,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="466">
+      <line no="471">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5768,7 +5820,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="467">
+      <line no="472">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -5777,7 +5829,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT ID, SITUACAO FROM SITUACAO_TITULO WHERE ID &gt; 0 ORDER BY 2"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="468">
+      <line no="473">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -5791,7 +5843,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="469">
+      <line no="474">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -5808,7 +5860,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="470">
+      <line no="475">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -5819,7 +5871,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="471">
+      <line no="476">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -5830,7 +5882,7 @@
         <token name="T_STRING">SITUACAO</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="472">
+      <line no="477">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5839,7 +5891,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="473">
+      <line no="478">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -5853,7 +5905,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="474">
+      <line no="479">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5862,11 +5914,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="475">
+      <line no="480">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="476">
+      <line no="481">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5881,23 +5933,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="477">
+      <line no="482">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="478">
+      <line no="483">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="479">
+      <line no="484">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="480"/>
-      <line no="481">
+      <line no="485"/>
+      <line no="486">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -5913,7 +5965,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="482">
+      <line no="487">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -5928,7 +5980,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="483">
+      <line no="488">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -5937,7 +5989,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT ID, NOME FROM GENERO WHERE ID &gt; 0 ORDER BY 2"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="484">
+      <line no="489">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -5951,7 +6003,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="485">
+      <line no="490">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -5968,7 +6020,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="486">
+      <line no="491">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -5979,7 +6031,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="487">
+      <line no="492">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -5990,7 +6042,7 @@
         <token name="T_STRING">NOME</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="488">
+      <line no="493">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -5999,7 +6051,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="489">
+      <line no="494">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -6013,7 +6065,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="490">
+      <line no="495">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -6022,11 +6074,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="491">
+      <line no="496">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="492">
+      <line no="497">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -6041,23 +6093,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="493">
+      <line no="498">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="494">
+      <line no="499">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="495">
+      <line no="500">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="496"/>
-      <line no="497">
+      <line no="501"/>
+      <line no="502">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -6073,7 +6125,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="498">
+      <line no="503">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -6088,7 +6140,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="499">
+      <line no="504">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -6097,7 +6149,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT ID, NOME||'/'||SIGLA_UF as NOME FROM CIDADE WHERE ID &gt; 0 ORDER BY 2"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="500">
+      <line no="505">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -6111,7 +6163,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="501">
+      <line no="506">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -6128,7 +6180,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="502">
+      <line no="507">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -6139,7 +6191,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="503">
+      <line no="508">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -6150,7 +6202,7 @@
         <token name="T_STRING">NOME</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="504">
+      <line no="509">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -6159,7 +6211,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="505">
+      <line no="510">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -6173,7 +6225,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="506">
+      <line no="511">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -6182,11 +6234,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="507">
+      <line no="512">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="508">
+      <line no="513">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -6201,23 +6253,23 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="509">
+      <line no="514">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="510">
+      <line no="515">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="511">
+      <line no="516">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="512"/>
-      <line no="513">
+      <line no="517"/>
+      <line no="518">
         <token name="T_WHITESPACE"> </token>
         <token name="T_PUBLIC">public</token>
         <token name="T_WHITESPACE"> </token>
@@ -6233,7 +6285,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="514">
+      <line no="519">
         <token name="T_WHITESPACE">   </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -6248,7 +6300,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"&lt;/option&gt;\n"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="515">
+      <line no="520">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$sql</token>
         <token name="T_WHITESPACE"> </token>
@@ -6257,7 +6309,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"SELECT ID, SITUACAO FROM SITUACAO_ASSOCIADO WHERE ID &gt; 0 ORDER BY 2"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="516">
+      <line no="521">
         <token name="T_WHITESPACE">   </token>
         <token name="T_VARIABLE">$r</token>
         <token name="T_WHITESPACE"> </token>
@@ -6271,7 +6323,7 @@
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="517">
+      <line no="522">
         <token name="T_WHITESPACE">   </token>
         <token name="T_WHILE">while</token>
         <token name="T_WHITESPACE"> </token>
@@ -6288,7 +6340,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="518">
+      <line no="523">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$id</token>
         <token name="T_WHITESPACE"> </token>
@@ -6299,7 +6351,7 @@
         <token name="T_STRING">ID</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="519">
+      <line no="524">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$nome</token>
         <token name="T_WHITESPACE"> </token>
@@ -6310,7 +6362,7 @@
         <token name="T_STRING">SITUACAO</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="520">
+      <line no="525">
         <token name="T_WHITESPACE">       </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -6319,7 +6371,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="521">
+      <line no="526">
         <token name="T_WHITESPACE">       </token>
         <token name="T_IF">if</token>
         <token name="T_WHITESPACE"> </token>
@@ -6333,7 +6385,7 @@
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
       </line>
-      <line no="522">
+      <line no="527">
         <token name="T_WHITESPACE">           </token>
         <token name="T_VARIABLE">$selectd</token>
         <token name="T_WHITESPACE"> </token>
@@ -6342,11 +6394,11 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">" selected"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="523">
+      <line no="528">
         <token name="T_WHITESPACE">       </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="524">
+      <line no="529">
         <token name="T_WHITESPACE">       </token>
         <token name="T_PRINT">print</token>
         <token name="T_WHITESPACE"> </token>
@@ -6361,25 +6413,25 @@
         <token name="T_DOUBLE_QUOTES">"</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="525">
+      <line no="530">
         <token name="T_WHITESPACE">   </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="526">
+      <line no="531">
         <token name="T_WHITESPACE">   </token>
         <token name="T_RETURN">return</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_STRING">true</token>
         <token name="T_SEMICOLON">;</token>
       </line>
-      <line no="527">
+      <line no="532">
         <token name="T_WHITESPACE"> </token>
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="528">
+      <line no="533">
         <token name="T_CLOSE_CURLY">}</token>
       </line>
-      <line no="529">
+      <line no="534">
         <token name="T_CLOSE_TAG">?&gt;</token>
       </line>
     </source>

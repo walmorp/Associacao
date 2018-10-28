@@ -667,15 +667,7 @@
         <token name="T_WHITESPACE">          </token>
         <token name="T_PRINT">Print</token>
         <token name="T_OPEN_BRACKET">(</token>
-        <token name="T_DOUBLE_QUOTES">"</token>
-        <token name="T_ENCAPSED_AND_WHITESPACE">Erro ao executar a tarefa!&lt;br&gt;</token>
-        <token name="T_VARIABLE">$sql</token>
-        <token name="T_ENCAPSED_AND_WHITESPACE">&lt;br&gt;</token>
-        <token name="T_DOUBLE_QUOTES">"</token>
-        <token name="T_DOT">.</token>
-        <token name="T_STRING">ibase_errmsg</token>
-        <token name="T_OPEN_BRACKET">(</token>
-        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"Erro ao executar a tarefa!&lt;br&gt;&lt;br&gt;"</token>
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_SEMICOLON">;</token>
         <token name="T_WHITESPACE">  </token>

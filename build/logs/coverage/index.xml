@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Sun Oct 28 19:29:34 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
+  <build time="Sun Oct 28 21:47:31 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
     <runtime name="PHP" version="7.2.10" url="https://secure.php.net/"/>
     <driver name="xdebug" version="2.6.1"/>
   </build>
@@ -163,18 +163,18 @@
     </tests>
     <directory name="/">
       <totals>
-        <lines total="2019" comments="24" code="1995" executable="973" executed="908" percent="93.32"/>
-        <methods count="179" tested="129" percent="72.07"/>
+        <lines total="2026" comments="24" code="2002" executable="978" executed="946" percent="96.73"/>
+        <methods count="179" tested="157" percent="87.71"/>
         <functions count="0" tested="0" percent="0"/>
-        <classes count="19" tested="8" percent="42.11"/>
+        <classes count="19" tested="12" percent="63.16"/>
         <traits count="0" tested="0" percent="0"/>
       </totals>
       <directory name="controller">
         <totals>
-          <lines total="1731" comments="24" code="1707" executable="888" executed="823" percent="92.68"/>
-          <methods count="121" tested="71" percent="58.68"/>
+          <lines total="1738" comments="24" code="1714" executable="893" executed="861" percent="96.42"/>
+          <methods count="121" tested="99" percent="81.82"/>
           <functions count="0" tested="0" percent="0"/>
-          <classes count="15" tested="4" percent="26.67"/>
+          <classes count="15" tested="8" percent="53.33"/>
           <traits count="0" tested="0" percent="0"/>
         </totals>
         <file name="Conexao.php" href="controller/Conexao.php.xml">
@@ -188,7 +188,7 @@
         </file>
         <file name="DaoBaixarParcela.php" href="controller/DaoBaixarParcela.php.xml">
           <totals>
-            <lines total="81" comments="0" code="81" executable="42" executed="40" percent="95.24"/>
+            <lines total="83" comments="0" code="83" executable="43" executed="41" percent="95.35"/>
             <methods count="4" tested="3" percent="75.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
@@ -206,17 +206,17 @@
         </file>
         <file name="DaoControleAssociado.php" href="controller/DaoControleAssociado.php.xml">
           <totals>
-            <lines total="124" comments="0" code="124" executable="66" executed="59" percent="89.39"/>
-            <methods count="11" tested="5" percent="45.45"/>
+            <lines total="124" comments="0" code="124" executable="66" executed="66" percent="100.00"/>
+            <methods count="11" tested="11" percent="100.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="1" tested="0" percent="0.00"/>
+            <classes count="1" tested="1" percent="100.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
         </file>
         <file name="DaoControleCidade.php" href="controller/DaoControleCidade.php.xml">
           <totals>
-            <lines total="96" comments="0" code="96" executable="46" executed="40" percent="86.96"/>
-            <methods count="11" tested="5" percent="45.45"/>
+            <lines total="96" comments="0" code="96" executable="46" executed="45" percent="97.83"/>
+            <methods count="11" tested="10" percent="90.91"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
@@ -224,8 +224,8 @@
         </file>
         <file name="DaoControleCobranca.php" href="controller/DaoControleCobranca.php.xml">
           <totals>
-            <lines total="185" comments="0" code="185" executable="105" executed="98" percent="93.33"/>
-            <methods count="12" tested="8" percent="66.67"/>
+            <lines total="185" comments="0" code="185" executable="105" executed="104" percent="99.05"/>
+            <methods count="12" tested="11" percent="91.67"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
@@ -233,8 +233,8 @@
         </file>
         <file name="DaoControleTipoCobranca.php" href="controller/DaoControleTipoCobranca.php.xml">
           <totals>
-            <lines total="96" comments="0" code="96" executable="46" executed="40" percent="86.96"/>
-            <methods count="11" tested="5" percent="45.45"/>
+            <lines total="96" comments="0" code="96" executable="46" executed="45" percent="97.83"/>
+            <methods count="11" tested="10" percent="90.91"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>
@@ -242,10 +242,10 @@
         </file>
         <file name="DaoControleTitulo.php" href="controller/DaoControleTitulo.php.xml">
           <totals>
-            <lines total="117" comments="0" code="117" executable="60" executed="53" percent="88.33"/>
-            <methods count="11" tested="5" percent="45.45"/>
+            <lines total="117" comments="0" code="117" executable="60" executed="60" percent="100.00"/>
+            <methods count="11" tested="11" percent="100.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="1" tested="0" percent="0.00"/>
+            <classes count="1" tested="1" percent="100.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
         </file>
@@ -260,10 +260,10 @@
         </file>
         <file name="DaoImprimirParcela.php" href="controller/DaoImprimirParcela.php.xml">
           <totals>
-            <lines total="35" comments="0" code="35" executable="9" executed="8" percent="88.89"/>
-            <methods count="3" tested="2" percent="66.67"/>
+            <lines total="35" comments="0" code="35" executable="9" executed="9" percent="100.00"/>
+            <methods count="3" tested="3" percent="100.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="1" tested="0" percent="0.00"/>
+            <classes count="1" tested="1" percent="100.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
         </file>
@@ -278,10 +278,10 @@
         </file>
         <file name="DaoRelacionaParcelasAssociado.php" href="controller/DaoRelacionaParcelasAssociado.php.xml">
           <totals>
-            <lines total="67" comments="0" code="67" executable="27" executed="24" percent="88.89"/>
-            <methods count="3" tested="2" percent="66.67"/>
+            <lines total="67" comments="0" code="67" executable="27" executed="27" percent="100.00"/>
+            <methods count="3" tested="3" percent="100.00"/>
             <functions count="0" tested="0" percent="0"/>
-            <classes count="1" tested="0" percent="0.00"/>
+            <classes count="1" tested="1" percent="100.00"/>
             <traits count="0" tested="0" percent="0"/>
           </totals>
         </file>
@@ -305,8 +305,8 @@
         </file>
         <file name="FuncaoSistema.php" href="controller/FuncaoSistema.php.xml">
           <totals>
-            <lines total="528" comments="18" code="510" executable="331" executed="309" percent="93.35"/>
-            <methods count="28" tested="13" percent="46.43"/>
+            <lines total="533" comments="18" code="515" executable="335" executed="312" percent="93.13"/>
+            <methods count="28" tested="14" percent="50.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>

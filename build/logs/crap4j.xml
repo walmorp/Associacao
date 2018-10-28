@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2018-10-28 19:29:34</timestamp>
+  <timestamp>2018-10-28 21:47:31</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>179</methodCount>
     <crapMethodCount>1</crapMethodCount>
     <crapLoad>3</crapLoad>
-    <totalCrap>352.13</totalCrap>
+    <totalCrap>352.95</totalCrap>
     <crapMethodPercent>0.56</crapMethodPercent>
   </stats>
   <methods>
@@ -118,7 +118,7 @@
       <fullMethod>gravar()</fullMethod>
       <crap>5</crap>
       <complexity>5</complexity>
-      <coverage>94.29</coverage>
+      <coverage>94.44</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -248,9 +248,9 @@
       <methodName>gravar</methodName>
       <methodSignature>gravar()</methodSignature>
       <fullMethod>gravar()</fullMethod>
-      <crap>2.06</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>75</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -259,9 +259,9 @@
       <methodName>existe</methodName>
       <methodSignature>existe($id)</methodSignature>
       <fullMethod>existe($id)</fullMethod>
-      <crap>2.15</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>66.67</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -272,7 +272,7 @@
       <fullMethod>insere()</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>92.86</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -283,7 +283,7 @@
       <fullMethod>altera()</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>95.24</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -292,9 +292,9 @@
       <methodName>apaga</methodName>
       <methodSignature>apaga($id)</methodSignature>
       <fullMethod>apaga($id)</fullMethod>
-      <crap>2.03</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>80</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -314,9 +314,9 @@
       <methodName>lista</methodName>
       <methodSignature>lista($filtro="")</methodSignature>
       <fullMethod>lista($filtro="")</fullMethod>
-      <crap>3.04</crap>
+      <crap>3</crap>
       <complexity>3</complexity>
-      <coverage>83.33</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -369,9 +369,9 @@
       <methodName>gravar</methodName>
       <methodSignature>gravar()</methodSignature>
       <fullMethod>gravar()</fullMethod>
-      <crap>2.06</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>75</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -380,9 +380,9 @@
       <methodName>existe</methodName>
       <methodSignature>existe($id)</methodSignature>
       <fullMethod>existe($id)</fullMethod>
-      <crap>2.15</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>66.67</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -404,7 +404,7 @@
       <fullMethod>altera()</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>90.91</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -413,9 +413,9 @@
       <methodName>apaga</methodName>
       <methodSignature>apaga($id)</methodSignature>
       <fullMethod>apaga($id)</fullMethod>
-      <crap>2.03</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>80</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -435,9 +435,9 @@
       <methodName>lista</methodName>
       <methodSignature>lista($filtro="")</methodSignature>
       <fullMethod>lista($filtro="")</fullMethod>
-      <crap>2.01</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>85.71</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -490,9 +490,9 @@
       <methodName>gravar</methodName>
       <methodSignature>gravar()</methodSignature>
       <fullMethod>gravar()</fullMethod>
-      <crap>2.06</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>75</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -501,9 +501,9 @@
       <methodName>existe</methodName>
       <methodSignature>existe($id)</methodSignature>
       <fullMethod>existe($id)</fullMethod>
-      <crap>2.15</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>66.67</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -512,9 +512,9 @@
       <methodName>insere</methodName>
       <methodSignature>insere()</methodSignature>
       <fullMethod>insere()</fullMethod>
-      <crap>3.04</crap>
+      <crap>3</crap>
       <complexity>3</complexity>
-      <coverage>84</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -622,9 +622,9 @@
       <methodName>gravar</methodName>
       <methodSignature>gravar()</methodSignature>
       <fullMethod>gravar()</fullMethod>
-      <crap>2.06</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>75</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -633,9 +633,9 @@
       <methodName>existe</methodName>
       <methodSignature>existe($id)</methodSignature>
       <fullMethod>existe($id)</fullMethod>
-      <crap>2.15</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>66.67</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -657,7 +657,7 @@
       <fullMethod>altera()</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>90.91</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -666,9 +666,9 @@
       <methodName>apaga</methodName>
       <methodSignature>apaga($id)</methodSignature>
       <fullMethod>apaga($id)</fullMethod>
-      <crap>2.03</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>80</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -688,9 +688,9 @@
       <methodName>lista</methodName>
       <methodSignature>lista($filtro="")</methodSignature>
       <fullMethod>lista($filtro="")</fullMethod>
-      <crap>2.01</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>85.71</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -743,9 +743,9 @@
       <methodName>gravar</methodName>
       <methodSignature>gravar()</methodSignature>
       <fullMethod>gravar()</fullMethod>
-      <crap>2.06</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>75</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -754,9 +754,9 @@
       <methodName>existe</methodName>
       <methodSignature>existe($id)</methodSignature>
       <fullMethod>existe($id)</fullMethod>
-      <crap>2.15</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>66.67</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -767,7 +767,7 @@
       <fullMethod>insere()</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>91.67</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -778,7 +778,7 @@
       <fullMethod>altera()</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>94.12</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -787,9 +787,9 @@
       <methodName>apaga</methodName>
       <methodSignature>apaga($id)</methodSignature>
       <fullMethod>apaga($id)</fullMethod>
-      <crap>2.03</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>80</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -809,9 +809,9 @@
       <methodName>lista</methodName>
       <methodSignature>lista($filtro="")</methodSignature>
       <fullMethod>lista($filtro="")</fullMethod>
-      <crap>3.04</crap>
+      <crap>3</crap>
       <complexity>3</complexity>
-      <coverage>83.33</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -897,9 +897,9 @@
       <methodName>mostraRelatorio</methodName>
       <methodSignature>mostraRelatorio()</methodSignature>
       <fullMethod>mostraRelatorio()</fullMethod>
-      <crap>2.02</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>83.33</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -963,9 +963,9 @@
       <methodName>mostraRelatorio</methodName>
       <methodSignature>mostraRelatorio()</methodSignature>
       <fullMethod>mostraRelatorio()</fullMethod>
-      <crap>9.16</crap>
+      <crap>9</crap>
       <complexity>9</complexity>
-      <coverage>87.5</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1161,9 +1161,9 @@
       <methodName>apagarDados</methodName>
       <methodSignature>apagarDados($obj, $id)</methodSignature>
       <fullMethod>apagarDados($obj, $id)</fullMethod>
-      <crap>2.03</crap>
+      <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>80</coverage>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1172,9 +1172,9 @@
       <methodName>consultarDados</methodName>
       <methodSignature>consultarDados($obj, $id)</methodSignature>
       <fullMethod>consultarDados($obj, $id)</fullMethod>
-      <crap>2.02</crap>
-      <complexity>2</complexity>
-      <coverage>83.33</coverage>
+      <crap>3.02</crap>
+      <complexity>3</complexity>
+      <coverage>87.5</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1183,9 +1183,9 @@
       <methodName>montaDados</methodName>
       <methodSignature>montaDados($r)</methodSignature>
       <fullMethod>montaDados($r)</fullMethod>
-      <crap>3.04</crap>
-      <complexity>3</complexity>
-      <coverage>83.33</coverage>
+      <crap>4.25</crap>
+      <complexity>4</complexity>
+      <coverage>75</coverage>
       <crapLoad>0</crapLoad>
     </method>
     <method>
@@ -1216,9 +1216,9 @@
       <methodName>mostraTabelaBDConectado</methodName>
       <methodSignature>mostraTabelaBDConectado($obj, $sql, $Opera, $MostrarMetaDados = false)</methodSignature>
       <fullMethod>mostraTabelaBDConectado($obj, $sql, $Opera, $MostrarMetaDados = false)</fullMethod>
-      <crap>30.25</crap>
+      <crap>30.38</crap>
       <complexity>30</complexity>
-      <coverage>93.46</coverage>
+      <coverage>92.52</coverage>
       <crapLoad>3</crapLoad>
     </method>
     <method>

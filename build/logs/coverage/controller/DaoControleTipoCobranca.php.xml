@@ -2,26 +2,26 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="DaoControleTipoCobranca.php" path="/controller">
     <totals>
-      <lines total="96" comments="0" code="96" executable="46" executed="40" percent="86.96"/>
-      <methods count="11" tested="5" percent="45.45"/>
+      <lines total="96" comments="0" code="96" executable="46" executed="45" percent="97.83"/>
+      <methods count="11" tested="10" percent="90.91"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="DaoControleTipoCobranca" start="7" executable="46" executed="40" crap="17.64">
+    <class name="DaoControleTipoCobranca" start="7" executable="46" executed="45" crap="17">
       <package full="" name="" sub="" category=""/>
       <namespace name=""/>
       <method name="getTabela" signature="getTabela()" start="10" end="12" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="getClassModel" signature="getClassModel()" start="14" end="16" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="getClassView" signature="getClassView()" start="18" end="20" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="executaView" signature="executaView()" start="22" end="25" crap="1" executable="2" executed="2" coverage="100"/>
-      <method name="gravar" signature="gravar()" start="27" end="34" crap="2.06" executable="4" executed="3" coverage="75"/>
-      <method name="existe" signature="existe($id)" start="36" end="42" crap="2.15" executable="3" executed="2" coverage="66.666666666667"/>
+      <method name="gravar" signature="gravar()" start="27" end="34" crap="2" executable="4" executed="4" coverage="100"/>
+      <method name="existe" signature="existe($id)" start="36" end="42" crap="2" executable="3" executed="3" coverage="100"/>
       <method name="insere" signature="insere()" start="44" end="55" crap="2.01" executable="9" executed="8" coverage="88.888888888889"/>
-      <method name="altera" signature="altera()" start="57" end="70" crap="2.00" executable="11" executed="10" coverage="90.909090909091"/>
-      <method name="apaga" signature="apaga($id)" start="72" end="79" crap="2.03" executable="5" executed="4" coverage="80"/>
+      <method name="altera" signature="altera()" start="57" end="70" crap="2" executable="11" executed="11" coverage="100"/>
+      <method name="apaga" signature="apaga($id)" start="72" end="79" crap="2" executable="5" executed="5" coverage="100"/>
       <method name="ler" signature="ler($id)" start="81" end="84" crap="1" executable="2" executed="2" coverage="100"/>
-      <method name="lista" signature="lista($filtro=&quot;&quot;)" start="86" end="95" crap="2.01" executable="7" executed="6" coverage="85.714285714286"/>
+      <method name="lista" signature="lista($filtro=&quot;&quot;)" start="86" end="95" crap="2" executable="7" executed="7" coverage="100"/>
     </class>
     <coverage>
       <line nr="11">
@@ -48,7 +48,13 @@
       <line nr="30">
         <covered by="DaoControleTipoCobrancaTest::testGravar"/>
       </line>
+      <line nr="32">
+        <covered by="DaoControleTipoCobrancaTest::testGravar"/>
+      </line>
       <line nr="37">
+        <covered by="DaoControleTipoCobrancaTest::testExiste"/>
+      </line>
+      <line nr="38">
         <covered by="DaoControleTipoCobrancaTest::testExiste"/>
       </line>
       <line nr="40">
@@ -105,6 +111,9 @@
       <line nr="66">
         <covered by="DaoControleTipoCobrancaTest::testAltera"/>
       </line>
+      <line nr="67">
+        <covered by="DaoControleTipoCobrancaTest::testAltera"/>
+      </line>
       <line nr="69">
         <covered by="DaoControleTipoCobrancaTest::testAltera"/>
       </line>
@@ -115,6 +124,9 @@
         <covered by="DaoControleTipoCobrancaTest::testApaga"/>
       </line>
       <line nr="75">
+        <covered by="DaoControleTipoCobrancaTest::testApaga"/>
+      </line>
+      <line nr="76">
         <covered by="DaoControleTipoCobrancaTest::testApaga"/>
       </line>
       <line nr="78">
@@ -130,6 +142,9 @@
         <covered by="DaoControleTipoCobrancaTest::testLista"/>
       </line>
       <line nr="88">
+        <covered by="DaoControleTipoCobrancaTest::testLista"/>
+      </line>
+      <line nr="89">
         <covered by="DaoControleTipoCobrancaTest::testLista"/>
       </line>
       <line nr="91">

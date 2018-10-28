@@ -66,6 +66,7 @@ class DaoControleTipoCobrancaTest extends TesteCase {
      */
     public function testExiste() {
        $this->assertEquals(true, $this->object->existe('1'));
+       $this->assertEquals(false, $this->object->existe('0'));
     }
 
     /**
@@ -74,6 +75,8 @@ class DaoControleTipoCobrancaTest extends TesteCase {
      */
     public function testAltera() {
        $this->assertEquals(true, $this->object->altera());
+       $_GET['id']='0';
+       $this->assertEquals(false, $this->object->altera());
     }
 
     /**
@@ -82,6 +85,8 @@ class DaoControleTipoCobrancaTest extends TesteCase {
      */
     public function testGravar() {
        $this->assertEquals(true, $this->object->gravar());
+       $_GET['id']='0';
+       $this->assertEquals(false, $this->object->gravar());
     }
 
     /**
@@ -90,6 +95,7 @@ class DaoControleTipoCobrancaTest extends TesteCase {
      */
     public function testApaga() {
        $this->assertEquals(true, $this->object->apaga('0'));
+       $this->assertEquals(false, $this->object->apaga(''));
     }
 
     /**
@@ -109,6 +115,7 @@ class DaoControleTipoCobrancaTest extends TesteCase {
      * @todo   Implement testLer().
      */
     public function testLer() {
+       $this->assertContains(true, $this->object->ler('1'));
        $this->assertContains(false, $this->object->ler('0'));
     }
 
@@ -118,6 +125,7 @@ class DaoControleTipoCobrancaTest extends TesteCase {
      */
     public function testLista() {
        $this->assertEquals(true, $this->object->lista());
+       $this->assertEquals(true, $this->object->lista("A"));
     }
 
 }

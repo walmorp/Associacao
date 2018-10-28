@@ -153,6 +153,7 @@ class FuncaoSistemaTest extends TesteCase {
     public function testApagarDados() {
        $obj = new DaoControleAssociado();
        $this->assertCount(8, $obj->apagarDados($obj, 0));
+       $this->assertEquals(false, $obj->apagarDados($obj, ""));
     }
 
     /**
@@ -162,6 +163,8 @@ class FuncaoSistemaTest extends TesteCase {
     public function testConsultarDados() {
        $obj = new DaoControleAssociado();
        $this->assertCount(8, $obj->consultarDados($obj, 1));
+       $this->assertCount(8, $obj->consultarDados($obj, ""));
+       //$this->assertEquals(false, $obj->consultarDados($obj, ""));
     }
 
     /**

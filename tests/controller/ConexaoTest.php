@@ -15,7 +15,7 @@ class ConexaoTest extends TesteCase {
      * This method is called before a test is executed.
      */
     protected function setUp() {
-        $this->object = new Conexao;
+        $this->object = new Conexao();
         $this->conexao=$this->object->getConexao();
     }
 
@@ -27,7 +27,7 @@ class ConexaoTest extends TesteCase {
         
     }
     public function testConexao() {
-       $this->assertInstanceOf('Conexao', new Conexao);
+       $this->assertInstanceOf('Conexao', new Conexao());
     }
 
     /**

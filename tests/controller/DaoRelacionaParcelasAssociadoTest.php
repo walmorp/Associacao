@@ -46,7 +46,17 @@ class DaoRelacionaParcelasAssociadoTest extends TesteCase {
      * @todo   Implement testMostraRelatorio().
      */
     public function testMostraRelatorio() {
+       unSet($_SESSION['id']);
+       unSet($_SESSION['cpf']);
+       $_GET['idTipoCobranca']='1';
+       $_GET['idSituacaoBaixa']='1';
        $this->assertEquals(true, $this->object->mostraRelatorio());
+       $_GET['OperaRParc']='';
+       $this->assertEquals(true, $this->object->mostraRelatorio());
+       $_SESSION['id']="1";
+       $_SESSION['cpf']="xxx";
+       $this->assertEquals(true, $this->object->mostraRelatorio());
+       
     }
 
 }

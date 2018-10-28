@@ -70,5 +70,4 @@ class DaoBaixarParcelaTest extends TesteCase {
     public function testGetParcela() {
        $this->assertInstanceOf('stdClass', ibase_fetch_object($this->object->getParcela()));
     }
-
 }

@@ -34,7 +34,7 @@ class DaoControleCobranca extends Conexao implements Cadastro {
  }
   
  public function existe($id) {
-  if ($this::ler($id)["ID"]=="0") {
+  if ($this::ler($id)["ID"]=="") {
      return false;
   } else {
      return true;

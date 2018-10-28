@@ -42,6 +42,10 @@ class DaoImprimirParcelaTest extends TesteCase {
     public function testMostraRelatorio() {
        $_GET['id']='5';
        $this->assertInstanceOf('stdClass', ibase_fetch_object($this->object->mostraRelatorio()));
+       $_SESSION['id']="0";
+       $_SESSION['cpf']="xxx";
+       //$this->assertInstanceOf('stdClass', ibase_fetch_object($this->object->mostraRelatorio()));
+       $this->assertEquals(false, ibase_fetch_object($this->object->mostraRelatorio()));
     }
 
     /**

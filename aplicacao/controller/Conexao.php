@@ -55,7 +55,7 @@ class Conexao extends FuncaoSistema {
        } else If ( count(explode("DATA_NASCIMENTO_INVALIDA", ibase_errmsg())) > 1 ) {
           Print("Data de nascimento menor que a permitida!<br><br>");
        } else {
-          Print("Erro ao executar a tarefa!<br>$sql<br>".ibase_errmsg());  
+          Print("Erro ao executar a tarefa!<br><br>");  
        }
        Print "</h2></div></center>";
        return false;

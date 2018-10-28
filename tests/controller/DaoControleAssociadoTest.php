@@ -71,6 +71,8 @@ class DaoControleAssociadoTest extends TesteCase {
      */
     public function testInsere() {
        $this->assertEquals(true, $this->object->insere());
+       $_GET['nascimento']='2018';
+       $this->assertEquals(false, $this->object->insere());
     }
 
     /**
@@ -79,6 +81,7 @@ class DaoControleAssociadoTest extends TesteCase {
      */
     public function testExiste() {
        $this->assertEquals(true, $this->object->existe('1'));
+       $this->assertEquals(false, $this->object->existe('0'));
     }
 
     /**
@@ -87,6 +90,7 @@ class DaoControleAssociadoTest extends TesteCase {
      */
     public function testApaga() {
        $this->assertEquals(true, $this->object->apaga('0'));
+       $this->assertEquals(false, $this->object->apaga('1'));
     }
 
     /**
@@ -95,6 +99,8 @@ class DaoControleAssociadoTest extends TesteCase {
      */
     public function testAltera() {
        $this->assertEquals(true, $this->object->altera());
+       $_GET['id']='0';
+       $this->assertEquals(false, $this->object->altera());
     }
 
     /**
@@ -103,6 +109,8 @@ class DaoControleAssociadoTest extends TesteCase {
      */
     public function testGravar() {
        $this->assertEquals(true, $this->object->gravar());
+       unSet($_GET['id']);
+       $this->assertEquals(true, $this->object->gravar());
     }
 
     /**
@@ -110,6 +118,7 @@ class DaoControleAssociadoTest extends TesteCase {
      * @todo   Implement testLer().
      */
     public function testLer() {
+       $this->assertContains(true, $this->object->ler('1'));
        $this->assertContains(false, $this->object->ler('0'));
     }
 
@@ -119,6 +128,8 @@ class DaoControleAssociadoTest extends TesteCase {
      */
     public function testLista() {
        $this->assertEquals(true, $this->object->lista());
+       $_GET['opSA']='I';
+       $this->assertEquals(true, $this->object->lista("A"));
     }
 
 }

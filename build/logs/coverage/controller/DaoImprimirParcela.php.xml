@@ -2,18 +2,18 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="DaoImprimirParcela.php" path="/controller">
     <totals>
-      <lines total="35" comments="0" code="35" executable="9" executed="8" percent="88.89"/>
-      <methods count="3" tested="2" percent="66.67"/>
+      <lines total="35" comments="0" code="35" executable="9" executed="9" percent="100.00"/>
+      <methods count="3" tested="3" percent="100.00"/>
       <functions count="0" tested="0" percent="0"/>
-      <classes count="1" tested="0" percent="0.00"/>
+      <classes count="1" tested="1" percent="100.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="DaoImprimirParcela" start="6" executable="9" executed="8" crap="4.02">
+    <class name="DaoImprimirParcela" start="6" executable="9" executed="9" crap="4">
       <package full="" name="" sub="" category=""/>
       <namespace name=""/>
       <method name="getClassView" signature="getClassView()" start="9" end="11" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="executaView" signature="executaView()" start="13" end="16" crap="1" executable="2" executed="2" coverage="100"/>
-      <method name="mostraRelatorio" signature="mostraRelatorio()" start="18" end="33" crap="2.02" executable="6" executed="5" coverage="83.333333333333"/>
+      <method name="mostraRelatorio" signature="mostraRelatorio()" start="18" end="33" crap="2" executable="6" executed="6" coverage="100"/>
     </class>
     <coverage>
       <line nr="10">
@@ -26,6 +26,9 @@
         <covered by="DaoImprimirParcelaTest::testExecutaView"/>
       </line>
       <line nr="19">
+        <covered by="DaoImprimirParcelaTest::testMostraRelatorio"/>
+      </line>
+      <line nr="20">
         <covered by="DaoImprimirParcelaTest::testMostraRelatorio"/>
       </line>
       <line nr="22">

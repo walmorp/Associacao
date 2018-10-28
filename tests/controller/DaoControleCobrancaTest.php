@@ -73,6 +73,10 @@ class DaoControleCobrancaTest extends TesteCase {
      */
     public function testInsere() {
        $this->assertEquals(true, $this->object->insere());
+       $_GET['valorBaixado']='0';
+       $this->assertEquals(true, $this->object->insere());
+       $_GET['idTipoCobranca']='0';
+       $this->assertEquals(false, $this->object->insere());
     }
 
     /**
@@ -80,7 +84,8 @@ class DaoControleCobrancaTest extends TesteCase {
      * @todo   Implement testExiste().
      */
     public function testExiste() {
-       $this->assertEquals(true, $this->object->existe('1'));
+       $this->assertEquals(true, $this->object->existe('5'));
+       $this->assertEquals(false, $this->object->existe('0'));
     }
 
     /**
@@ -97,10 +102,10 @@ class DaoControleCobrancaTest extends TesteCase {
      * @todo   Implement testGravar().
      */
     public function testGravar() {
-       $_GET['id']='1';
+       $_GET['id']='5';
        $this->assertEquals(true, $this->object->gravar());
        unSet($_GET['id']);
-       $this->assertEquals(false, $this->object->gravar());
+       $this->assertEquals(true, $this->object->gravar());
     }
 
     /**
@@ -111,6 +116,10 @@ class DaoControleCobrancaTest extends TesteCase {
        $this->assertEquals(true, $this->object->altera());
        $_GET['valorBaixado']='0';
        $_GET['idAssociado']='';
+       $this->assertEquals(true, $this->object->altera());
+       //$_GET['idTitulo']='';
+       $_GET['idTipoCobranca']='0';
+       $_GET['dataVencimento']='';
        $this->assertEquals(true, $this->object->altera());
     }
 

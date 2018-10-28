@@ -148,23 +148,28 @@ public function converteDataHoraParaIB($Data) {
 
   $r = $obj::query($sql);
   
-  $Dados = self::MontaDados($r);
-  if (!$Dados) {
-     return self::IniciaDados($obj); 
+  if (!$r) {
+      return self::IniciaDados($obj); 
   } else {
-     return $Dados;
+      $Dados = self::MontaDados($r);
+      if (!$Dados) {
+         return self::IniciaDados($obj); 
+      } else {
+         return $Dados;
+      }
   }
  }
 
  public function montaDados($r) {
+  if (!$r) {
+     return false;
+  }
   if ($row = ibase_fetch_object($r)) {
     $Dados = array();
     foreach($row as $key => $value) {
       $Dados[$key] = $value;
     }
     return $Dados;
-  } else {
-    return false;
   }
  }
 

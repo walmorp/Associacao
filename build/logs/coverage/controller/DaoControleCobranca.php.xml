@@ -2,22 +2,22 @@
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
   <file name="DaoControleCobranca.php" path="/controller">
     <totals>
-      <lines total="185" comments="0" code="185" executable="105" executed="98" percent="93.33"/>
-      <methods count="12" tested="8" percent="66.67"/>
+      <lines total="185" comments="0" code="185" executable="105" executed="104" percent="99.05"/>
+      <methods count="12" tested="11" percent="91.67"/>
       <functions count="0" tested="0" percent="0"/>
       <classes count="1" tested="0" percent="0.00"/>
       <traits count="0" tested="0" percent="0"/>
     </totals>
-    <class name="DaoControleCobranca" start="7" executable="105" executed="98" crap="30.27">
+    <class name="DaoControleCobranca" start="7" executable="105" executed="104" crap="30">
       <package full="" name="" sub="" category=""/>
       <namespace name=""/>
       <method name="getTabela" signature="getTabela()" start="10" end="12" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="getClassModel" signature="getClassModel()" start="14" end="16" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="getClassView" signature="getClassView()" start="18" end="20" crap="1" executable="1" executed="1" coverage="100"/>
       <method name="executaView" signature="executaView()" start="22" end="25" crap="1" executable="2" executed="2" coverage="100"/>
-      <method name="gravar" signature="gravar()" start="27" end="34" crap="2.06" executable="4" executed="3" coverage="75"/>
-      <method name="existe" signature="existe($id)" start="36" end="42" crap="2.15" executable="3" executed="2" coverage="66.666666666667"/>
-      <method name="insere" signature="insere()" start="44" end="77" crap="3.04" executable="25" executed="21" coverage="84"/>
+      <method name="gravar" signature="gravar()" start="27" end="34" crap="2" executable="4" executed="4" coverage="100"/>
+      <method name="existe" signature="existe($id)" start="36" end="42" crap="2" executable="3" executed="3" coverage="100"/>
+      <method name="insere" signature="insere()" start="44" end="77" crap="3" executable="25" executed="25" coverage="100"/>
       <method name="lerAssociadoTitulo" signature="lerAssociadoTitulo($idTitulo)" start="79" end="89" crap="2" executable="6" executed="6" coverage="100"/>
       <method name="altera" signature="altera()" start="91" end="135" crap="4" executable="36" executed="35" coverage="97.222222222222"/>
       <method name="apaga" signature="apaga($id)" start="137" end="144" crap="2" executable="5" executed="5" coverage="100"/>
@@ -49,7 +49,13 @@
       <line nr="30">
         <covered by="DaoControleCobrancaTest::testGravar"/>
       </line>
+      <line nr="32">
+        <covered by="DaoControleCobrancaTest::testGravar"/>
+      </line>
       <line nr="37">
+        <covered by="DaoControleCobrancaTest::testExiste"/>
+      </line>
+      <line nr="38">
         <covered by="DaoControleCobrancaTest::testExiste"/>
       </line>
       <line nr="40">
@@ -85,6 +91,15 @@
       <line nr="55">
         <covered by="DaoControleCobrancaTest::testInsere"/>
       </line>
+      <line nr="56">
+        <covered by="DaoControleCobrancaTest::testInsere"/>
+      </line>
+      <line nr="57">
+        <covered by="DaoControleCobrancaTest::testInsere"/>
+      </line>
+      <line nr="58">
+        <covered by="DaoControleCobrancaTest::testInsere"/>
+      </line>
       <line nr="60">
         <covered by="DaoControleCobrancaTest::testInsere"/>
       </line>
@@ -113,6 +128,9 @@
         <covered by="DaoControleCobrancaTest::testInsere"/>
       </line>
       <line nr="73">
+        <covered by="DaoControleCobrancaTest::testInsere"/>
+      </line>
+      <line nr="74">
         <covered by="DaoControleCobrancaTest::testInsere"/>
       </line>
       <line nr="76">
@@ -633,7 +651,7 @@
         <token name="T_CONSTANT_ENCAPSED_STRING">"ID"</token>
         <token name="T_CLOSE_SQUARE">]</token>
         <token name="T_IS_EQUAL">==</token>
-        <token name="T_CONSTANT_ENCAPSED_STRING">"0"</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
         <token name="T_CLOSE_BRACKET">)</token>
         <token name="T_WHITESPACE"> </token>
         <token name="T_OPEN_CURLY">{</token>
